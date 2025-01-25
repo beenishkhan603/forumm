@@ -3,7 +3,11 @@ import moment from 'moment'
 import React, { useEffect, useState } from 'react'
 import { BaseInputProps, Validations } from './BaseInputProps'
 import DatePicker from 'react-datepicker'
+import DateTimePicker from 'react-datetime-picker'
 import 'react-datepicker/dist/react-datepicker.css'
+// import 'react-datetime-picker/dist/DateTimePicker.css';
+// import 'react-calendar/dist/Calendar.css';
+// import 'react-clock/dist/Clock.css';
 import { useTheme } from '@libs/useTheme'
 import Tooltip from '@components/tootilp/Tooltip'
 
@@ -152,6 +156,7 @@ export const DateTimeInput = ({
             : null
         }
         onChange={handleChange}
+        // showTime={{ user12hours: true }}
         showTimeSelect={!dateOnly}
         openToDate={initialDate ?? new Date()}
         filterDate={filterDate}
@@ -159,10 +164,10 @@ export const DateTimeInput = ({
         isClearable
         popperClassName="!z-20"
         required={required}
-        timeFormat="HH:mm"
+        timeFormat="h:mm a"
         timeIntervals={15}
         autoComplete="off"
-        dateFormat={!dateOnly ? 'MMMM d, yyyy HH:mm' : 'MMMM d, yyyy'}
+        dateFormat={!dateOnly ? 'MMMM d, yyyy h:mm a' : 'MMMM d, yyyy'}
         placeholderText={placeholderText}
         className={`rounded-2xl transition-all bg-transparent border ${
           errorMessage ? 'text-red-500 border-red-500' : ''
