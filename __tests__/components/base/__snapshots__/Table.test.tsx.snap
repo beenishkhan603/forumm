@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders table unchanged 1`] = `
+<div>
+  <table
+    class="w-full table-auto text-left rounded-lg border border-midnight-gray"
+  >
+    <thead
+      class=""
+    >
+      <tr
+        class="border-b-midnight-gray border-b"
+        style="background-color: rgb(251, 252, 254);"
+      >
+        <th
+          class="p-3"
+        >
+          Name
+        </th>
+        <th
+          class="p-3"
+        >
+          Email
+        </th>
+        <th
+          class="p-3"
+        />
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="py-2 border-b-midnight-gray border-b"
+      >
+        <td
+          class="p-3"
+        >
+          John
+        </td>
+        <td
+          class="p-3"
+        >
+          john.doe@gmail.com
+        </td>
+        <td
+          class="p-3"
+        >
+          <div>
+            Actions
+          </div>
+        </td>
+      </tr>
+      <tr
+        class="py-2 border-b-midnight-gray border-b"
+      >
+        <td
+          class="p-3"
+        >
+          Pete
+        </td>
+        <td
+          class="p-3"
+        >
+          pete.doe@gmail.com
+        </td>
+        <td
+          class="p-3"
+        >
+          <div>
+            Actions
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

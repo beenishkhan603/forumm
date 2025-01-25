@@ -1,0 +1,873 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders agenda page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  >
+    <div
+      class="fixed w-full h-full top-0 left-0 bg-black z-40 flex items-center justify-center"
+      id="modal"
+      style="z-index: 99; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        class="relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] border border-forumm-menu-border overflow-y-auto "
+        style="background: rgb(255, 255, 255); opacity: 0; transform: scale(0) translateZ(0);"
+      >
+        <div
+          class="sticky top-0 flex w-full items-center py-3 box-border min-h-16"
+          style="background-color: rgb(255, 255, 255); z-index: 1000;"
+        >
+          <div
+            class="text-center text-lg flex-1 font-semibold"
+          />
+        </div>
+        <div
+          class="w-full"
+        >
+          <div
+            class="flex flex-col items-center justify-center"
+            style="color: rgb(24, 26, 32);"
+          >
+            <img
+              alt="profileImage"
+              class="w-16 h-16 rounded-full object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="500"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=1080&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=1080&q=75 2x"
+              style="color: transparent;"
+              width="500"
+            />
+            <div
+              class="flex justify-center space-x-4 items-center text-xl py-8"
+              style="color: rgb(24, 26, 32);"
+            >
+              <svg
+                class="animate-ping text-green-500"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M391 480c-19.52 0-46.94-7.06-88-30-49.93-28-88.55-53.85-138.21-103.38C116.91 298.77 93.61 267.79 61 208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82 73.38 58.16 62.65 74.11 52a176.3 176.3 0 0128.64-15.2c1-.43 1.93-.84 2.76-1.21 4.95-2.23 12.45-5.6 21.95-2 6.34 2.38 12 7.25 20.86 16 18.17 17.92 43 57.83 52.16 77.43 6.15 13.21 10.22 21.93 10.23 31.71 0 11.45-5.76 20.28-12.75 29.81-1.31 1.79-2.61 3.5-3.87 5.16-7.61 10-9.28 12.89-8.18 18.05 2.23 10.37 18.86 41.24 46.19 68.51s57.31 42.85 67.72 45.07c5.38 1.15 8.33-.59 18.65-8.47 1.48-1.13 3-2.3 4.59-3.47 10.66-7.93 19.08-13.54 30.26-13.54h.06c9.73 0 18.06 4.22 31.86 11.18 18 9.08 59.11 33.59 77.14 51.78 8.77 8.84 13.66 14.48 16.05 20.81 3.6 9.53.21 17-2 22-.37.83-.78 1.74-1.21 2.75a176.49 176.49 0 01-15.29 28.58c-10.63 15.9-21.4 28.21-39.38 36.58A67.42 67.42 0 01391 480z"
+                />
+              </svg>
+              <div
+                style="color: rgb(24, 26, 32);"
+              >
+                Paul Pirie
+                 Calling...
+              </div>
+            </div>
+            <div
+              class="flex space-x-2 w-full"
+              style="color: rgb(24, 26, 32);"
+            >
+              <button
+                class="
+      border-red-600 text-red-600 border rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+                type="button"
+              >
+                <span
+                  class="relative z-10"
+                  style="color: white;"
+                >
+                  Decline
+                </span>
+              </button>
+              <button
+                class="
+      border-green-500 text-green-500 border rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+                type="button"
+              >
+                <span
+                  class="relative z-10"
+                  style="color: white;"
+                >
+                  Accept
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="overflow-hidden min-h-screen flex flex-col h-screen"
+    style="color: rgb(24, 26, 32);"
+  >
+    <header>
+      <div
+        class="sticky top-0 left-0 w-full z-[1000] flex px-4 md:px-20 lg:px-[156px] justify-between border-b border-forumm-menu-border  items-center h-[65px] sm:h-[75px]"
+        style="color: rgb(24, 26, 32); background: rgba(255, 255, 255, 0.6);"
+      >
+        <div
+          class="flex items-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <button>
+            <div
+              class="flex items-center hover:animate-heartbeat"
+              style="color: rgb(24, 26, 32);"
+            >
+              <img
+                alt="Logo"
+                class="hidden md:flex h-14 w-14 rounded-md object-cover mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/images/ForummLogo.svg"
+                srcset="/images/ForummLogo.svg 1x, /images/ForummLogo.svg 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <div
+                class="flex flex-col"
+                style="color: rgb(24, 26, 32);"
+              >
+                <svg
+                  class="w-20 h-8 -ml-1"
+                />
+                <span
+                  class="text-xs text-left min-h-[20px]"
+                >
+                  448 Studio
+                </span>
+              </div>
+            </div>
+          </button>
+          <div
+            class="hidden md:block ml-6 font-medium text-xl"
+            style="color: rgb(24, 26, 32);"
+          >
+            Forumm Demo Event
+          </div>
+        </div>
+        <div
+          class="flex space-x-4 items-center cursor-pointer"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="flex items-center space-x-2 md:space-x-6 mr-3 md:mr-6"
+          >
+            <span
+              class="border-l-2 border-textColour h-8"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=" w-64 absolute px-6 right-0 mr-7 flex flex-col space-y-2 text-lg transition-all h-0 overflow-hidden -mt-[1px] rounded-xl border-t-0 rounded-tl-none rounded-tr-none shadow-md"
+        style="z-index: 999999; background-color: rgb(251, 252, 254); border: 0px solid #e5e7eb;"
+      >
+        <div
+          class="cursor-pointer flex items-center textColour text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 496 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            User Profile
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour text-base pt-1 leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2 text-181A20"
+          />
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Support
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour pt-1 text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M17 8l-1.41 1.41L17.17 11H9v2h8.17l-1.58 1.58L17 16l4-4-4-4zM5 5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v-2H5V5z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Logout
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="flex flex-col flex-1"
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="flex flex-1 ml-16 md:ml-24"
+        style="color: rgb(24, 26, 32);"
+      >
+        <div
+          class="flex-1 overflow-y-scroll outline-red-500 scrollbar-hide relative flex flex-col -mt-[80px] pt-[80px] overflow-x-hidden h-[calc(100vh)] relative"
+          style="opacity: 0; transform: translateX(-10px) translateZ(0);"
+        >
+          <div
+            class="pb-9 border-b border-forumm-menu-border relative"
+            style="--color-change-start: #11339c; --color-change-middle: #3763e9; --color-change-end: #9fb4f4;"
+          >
+            <div
+              class="absolute w-full h-[420px]"
+              style="color: rgb(24, 26, 32);"
+            >
+              <video
+                autoplay=""
+                class="absolute inset-0 w-full h-full object-cover select-none no-controls"
+                loop=""
+                playsinline=""
+              >
+                <source
+                  src="https://forumm-images-prod.s3.eu-west-1.amazonaws.com/user-content/manual-upload/video-background.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center"
+              style="color: rgb(24, 26, 32);"
+            >
+              <div
+                class="mt-10 mb-64 z-10 w-full md:w-[85%] max-w-[1500px]"
+                style="color: rgb(24, 26, 32);"
+              >
+                <div
+                  class="rounded-2xl shadow-lg flex flex-col p-4 md:p-6 md:px-8 md:py-4 md:pt-6 border border-forumm-menu-border"
+                  style="background: rgba(255, 255, 255, 0.6);"
+                >
+                  <div
+                    class="flex flex-col sm:flex-row w-full bg-transparent"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="order-2 sm:order-1 text-white text-3xl md:text-4xl font-bold mr-2"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      Forumm Demo Event
+                    </div>
+                    <div
+                      class="order-1 sm:order-2 ml-auto flex-shrink-0 mb-2"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <button
+                        class="
+      bg-tertiary border rounded-full  px-8 py-4 text-base h-10 flex items-center hover:animate-heartbeat justify-center inline bg-color-transparent border-none"
+                        style="color: rgb(55, 99, 233);"
+                        type="button"
+                      >
+                        <span
+                          class="relative z-10"
+                          style="color: white;"
+                        >
+                          <span
+                            class="flex items-center space-between"
+                          >
+                            <p
+                              class="m-0 px-1 text-sm"
+                            >
+                              Exit Event Hub
+                            </p>
+                            <svg
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              stroke-width="0"
+                              style="fill: #3763e9;"
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0 0h24v24H0z"
+                                fill="none"
+                              />
+                              <path
+                                d="M10.09 15.59L11.5 17l5-5-5-5-1.41 1.41L12.67 11H3v2h9.67l-2.58 2.59zM19 3H5a2 2 0 00-2 2v4h2V5h14v14H5v-4H3v4a2 2 0 002 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                    class="flex items-center mt-8 flex-wrap"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="text-gray-200 flex items-center mr-4"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <img
+                        alt="Banner"
+                        class="inline-block h-10 w-10 object-cover mr-4 rounded-full"
+                        data-nimg="1"
+                        decoding="async"
+                        height="384"
+                        loading="lazy"
+                        src="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=2048&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=2048&q=75 2x"
+                        style="color: transparent;"
+                        width="1000"
+                      />
+                      <span>
+                        Hosted by
+                      </span>
+                      <span
+                        class="font-bold ml-2"
+                      >
+                        Forumm
+                      </span>
+                    </div>
+                    <div
+                      class="flex space-x-2 items-center"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <svg
+                        class="w-10 h-10"
+                      />
+                      <span
+                        class="font-bold"
+                      >
+                        May 05, 12:00AM
+                         
+                        to
+                         
+                        May 05, 12:00AM
+                      </span>
+                    </div>
+                  </div>
+                   
+                  <div
+                    class="text-white mt-8 text-2xl font-medium"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    Stages
+                  </div>
+                  <div
+                    class="flex flex-wrap"
+                  >
+                    <div
+                      class="w-64 rounded-2xl bg-gray-700 text-center text-white p-6 flex flex-col mr-4 mt-4"
+                    >
+                      <div>
+                        Main
+                      </div>
+                      <div
+                        class="my-4"
+                      >
+                        Test
+                      </div>
+                      <button
+                        class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-8 py-4 text-base h-10 flex items-center hover:animate-heartbeat justify-center mt-auto"
+                        style="background-color: rgb(55, 99, 233);"
+                        type="button"
+                      >
+                        <span
+                          class="relative z-10"
+                          style="color: white;"
+                        >
+                          Watch Live
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rounded-2xl flex flex-col p-10 border border-forumm-menu-border flex-2 mt-2"
+                  style="background-color: rgb(251, 252, 254); color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="text-white text-2xl font-medium"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    Description
+                  </div>
+                  <div
+                    class="mt-4 text-white"
+                    style="color: rgb(24, 26, 32);"
+                  />
+                </div>
+                <div
+                  class="rounded-2xl flex mt-8 flex-col p-10 border border-forumm-menu-border flex-2"
+                  style="background-color: rgb(251, 252, 254); color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="my-4 w-full"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="min-w-max"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <div
+                        class="grid grid-cols-[1fr_2fr_1fr] sm:grid-cols-[1fr_2fr_1fr_1fr] md:grid-cols-[1fr_2fr_2fr_1fr_1fr] font-medium text-md gap-1"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        <div
+                          class="text-left overflow-hidden"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          When
+                        </div>
+                        <div
+                          class="text-left overflow-hidden"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Title
+                        </div>
+                        <div
+                          class="text-left overflow-auto hidden md:inline-block"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Description
+                        </div>
+                        <div
+                          class="text-left overflow-hidden"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Stage
+                        </div>
+                        <div
+                          class="text-left overflow-hidden hidden sm:inline-block"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Speakers
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="grid grid-cols-[1fr_2fr_1fr] sm:grid-cols-[1fr_2fr_1fr_1fr] md:grid-cols-[1fr_2fr_2fr_1fr_1fr] pt-4 mb-4 gap-1 p-1 border-t "
+                      data-testid="sessionList__item_0"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <div
+                        class="text-left overflow-hidden border-l-blue-500"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        May 05, 12:00AM
+                         - 
+                        <br />
+                        May 05, 12:00AM
+                      </div>
+                      <div
+                        class="text-left overflow-hidden"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Test
+                      </div>
+                      <div
+                        class="text-left overflow-auto hidden md:inline-block"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Test
+                      </div>
+                      <div
+                        class="text-left items-center justify-center overflow-hidden"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        <svg
+                          class="w-5 h-5 mr-2 inline"
+                          fill="none"
+                          height="1em"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          viewBox="0 0 24 24"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                            stroke="none"
+                          />
+                          <path
+                            d="M5 8h14l-.621 2.485a2 2 0 0 1 -1.94 1.515h-8.878a2 2 0 0 1 -1.94 -1.515l-.621 -2.485z"
+                          />
+                          <path
+                            d="M7 8v-2a3 3 0 0 1 3 -3"
+                          />
+                          <path
+                            d="M8 12l1 9"
+                          />
+                          <path
+                            d="M16 12l-1 9"
+                          />
+                          <path
+                            d="M7 21h10"
+                          />
+                        </svg>
+                        <span>
+                          Main
+                        </span>
+                      </div>
+                      <div
+                        class="text-left hidden sm:inline-block"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        <div
+                          class="flex"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          <div
+                            class="relative flex-shrink-0 w-10 h-10  "
+                          >
+                            <img
+                              alt="Profile Image"
+                              class="w-10 h-10 bg-contain bg-center rounded-full object-cover "
+                              data-nimg="1"
+                              decoding="async"
+                              height="32"
+                              loading="lazy"
+                              src="http://localhost/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=64&q=75"
+                              srcset="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=64&q=75 2x"
+                              style="color: transparent;"
+                              width="32"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="rounded-2xl flex flex-col p-10 border border-forumm-menu-border flex-2 mt-8"
+                  style="background-color: rgb(251, 252, 254); color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="text-white text-2xl font-medium"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    Speakers
+                  </div>
+                  <div
+                    class="flex flex-wrap my-8 -mx-4 justify-center"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="p-4 flex-1 max-w-xs text-center min-w-[20rem]"
+                    >
+                      <div
+                        class="bg-midnight-sky pt-8 p-4 flex flex-col items-center text-white rounded-lg sm:min-h-[310px] cursor-pointer"
+                      >
+                        <div
+                          class="relative flex-shrink-0 w-16 h-16  "
+                        >
+                          <img
+                            alt="Profile Image"
+                            class="w-16 h-16 bg-contain bg-center rounded-full object-cover "
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="http://localhost/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2F312735d7-764c-4a71-b1e9-3b190535a2fb.jpg&w=64&q=75"
+                            srcset="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2F312735d7-764c-4a71-b1e9-3b190535a2fb.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2F312735d7-764c-4a71-b1e9-3b190535a2fb.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                        <div
+                          class="mt-8 text-white"
+                        >
+                          Test Speaker
+                        </div>
+                        <div
+                          class="mt-4 text-white"
+                        >
+                          Dev
+                        </div>
+                        <div
+                          class="mt-8 text-gray-200"
+                        >
+                          Dev
+                        </div>
+                        <div
+                          class="mt-8 text-white font-light text-sm ml-auto flex items-center"
+                        >
+                          <svg
+                            class="ml-2 h-full"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="p-4 flex-1 max-w-xs text-center min-w-[20rem]"
+                    >
+                      <div
+                        class="bg-midnight-sky pt-8 p-4 flex flex-col items-center text-white rounded-lg sm:min-h-[310px] cursor-pointer"
+                      >
+                        <div
+                          class="relative flex-shrink-0 w-16 h-16  "
+                        >
+                          <img
+                            alt="Profile Image"
+                            class="w-16 h-16 bg-contain bg-center rounded-full object-cover "
+                            data-nimg="1"
+                            decoding="async"
+                            height="32"
+                            loading="lazy"
+                            src="http://localhost/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=64&q=75"
+                            srcset="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Fddfbb572-f03a-4118-ba66-f56242c3e8dd.jpg&w=64&q=75 2x"
+                            style="color: transparent;"
+                            width="32"
+                          />
+                        </div>
+                        <div
+                          class="mt-8 text-white"
+                        >
+                          Test Speaker 2
+                        </div>
+                        <div
+                          class="mt-4 text-white"
+                        >
+                          dev
+                        </div>
+                        <div
+                          class="mt-8 text-gray-200"
+                        >
+                          dev
+                        </div>
+                        <div
+                          class="mt-8 text-white font-light text-sm ml-auto flex items-center"
+                        >
+                          <svg
+                            class="ml-2 h-full"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sticky flex-1 bottom-0 text-white p-8 flex space-x-4 w-full justify-end items-end z-30 pointer-events-none translate-x-2"
+                style="color: rgb(24, 26, 32);"
+              >
+                <div
+                  class="bg-white w-15 h-15 rounded-full flex items-center justify-center cursor-pointer pointer-events-auto hover:bg-gray-200 transform border border-forumm-menu-border"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <svg
+                    class="text-forumm-blue w-8 h-8 "
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-0 border-l border-panel-gray transition-all flex flex-col overflow-x-hidden h-[calc(100vh_-_81px)]"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="flex justify-evenly items-center border-b border-panel-gray text-center"
+            style="color: rgb(24, 26, 32);"
+          >
+            <div
+              class="text-md font-medium py-4 flex-1 cursor-pointer select-none whitespace-nowrap"
+              style="background-color: rgb(255, 255, 255); color: rgb(24, 26, 32);"
+            >
+              Event Chat
+            </div>
+            <div
+              class="text-white text-sm py-4 px-6 cursor-pointer select-none flex items-center space-x-2 justify-center"
+              style="background-color: rgb(255, 255, 255);"
+            >
+              <svg
+                class="w-5 h-6"
+                fill="#181A20"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"
+                />
+              </svg>
+            </div>
+            <div
+              class="text-white text-sm py-4 px-6 cursor-pointer select-none flex items-center space-x-2 justify-center"
+              style="background-color: rgb(255, 255, 255);"
+            >
+              <svg
+                class="w-5 h-6"
+                fill="#181A20"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex flex-col h-full overflow-y-auto"
+            style="color: rgb(24, 26, 32);"
+          >
+            <div
+              class="relative w-full h-full flex flex-col"
+              style="color: rgb(24, 26, 32);"
+            >
+              <div
+                class="flex-1 flex flex-col overflow-y-auto pt-4 pb-2"
+                style="color: rgb(24, 26, 32);"
+              />
+              <div
+                class="border-t border-gray-300"
+                style="color: rgb(24, 26, 32);"
+              />
+              <div
+                class="flex-end w-full"
+                style="color: rgb(24, 26, 32);"
+              >
+                <div
+                  class="flex w-full p-3 space-x-1 items-center"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <label
+                    class="flex flex-col flex-1 mt-0"
+                  >
+                    <span
+                      class="absolute text-sm -translate-y-1/2 mb-2 ml-2 px-2 transition-all "
+                      style="background-color: rgb(255, 255, 255);"
+                    >
+                      <span
+                        class=""
+                      />
+                    </span>
+                    <textarea
+                      autocomplete="on"
+                      class="transition-all bg-transparent   resize-none rounded px-4 py-4 text-sm outline-none"
+                      placeholder="Type to write a message..."
+                      rows="1"
+                    />
+                    <div
+                      class="transition-all opacity-0 text-red-500 text-sm font-bold"
+                    />
+                  </label>
+                  <span>
+                    <svg
+                      class="text-2xl cursor-pointer text-black"
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 16 16"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                        fill-rule="evenodd"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

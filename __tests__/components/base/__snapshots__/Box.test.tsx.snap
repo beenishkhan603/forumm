@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders box unchanged 1`] = `
+<div>
+  <div
+    style="color: rgb(24, 26, 32);"
+  >
+    Test
+  </div>
+</div>
+`;

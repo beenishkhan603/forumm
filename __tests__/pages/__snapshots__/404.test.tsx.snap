@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders not found page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+  <div
+    class="flex flex-col items-center"
+    style="color: rgb(24, 26, 32);"
+  >
+    <div
+      class="text-5xl text-white text-center mt-64 max-w-2xl"
+      style="color: rgb(24, 26, 32);"
+    >
+      Sorry, we couldn't find what you were looking for! 😢
+    </div>
+    <div
+      class="text-xl text-white text-center mt-4 mb-16"
+      style="color: rgb(24, 26, 32);"
+    >
+      404 Not Found
+    </div>
+    <a
+      class="
+        bg-forumm-blue-2 text-white relative         
+        btn hover:animate-heartbeat rounded-full flex justify-center items-center text-center px-6 py-4 text-base h-8 my-0 undefined"
+      href="/"
+    >
+      Back to main page
+    </a>
+  </div>
+</div>
+`;

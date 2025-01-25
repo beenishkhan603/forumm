@@ -1,0 +1,4 @@
+{
+  "schema": "http://localhost:3005",
+  "documents": "./graphql/**/*.{tsx,ts}"
+}

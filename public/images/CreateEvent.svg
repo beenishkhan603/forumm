@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="379.7" height="200.9">
+
+  <ellipse cx="147.2" cy="8.6" fill="#5589ff" rx="147.2" ry="8.6" transform="translate(43 184)" />
+  <g fill="#407bff">
+    <path d="M149 121a3 3 0 0 1-3 3 2 2 0 0 1-2-3 3 3 0 0 1 3-3 2 2 0 0 1 2 3Z" data-name="Path 551" />
+    <path d="M151 119a1 1 0 0 1-1 0c1-2-1-3-3-3s-4 2-4 3a1 1 0 0 1-1 0c0-2 2-4 5-4s5 1 5 4a1 1 0 0 1-1 0Z" data-name="Path 552" />
+    <path d="M152 116a1 1 0 0 1 0-1c0-1-2-3-5-3s-5 2-5 3a1 1 0 0 1-1 1 1 1 0 0 1 0-1c0-2 3-4 6-4 4 0 6 2 6 4a1 1 0 0 1-1 1Z" data-name="Path 553" />
+    <path d="M154 112a1 1 0 0 1-1 0c1-1-2-3-6-3s-6 2-6 3a1 1 0 0 1-1 0c0-2 3-4 7-4 5 0 8 2 8 4a1 1 0 0 1-1 0Z" data-name="Path 554" />
+  </g>
+  <g transform="translate(50 42)">
+    <path fill="#407bff" d="M211 137H9L20 10h202Z" data-name="Path 555" />
+    <path fill="#263238" d="M208 147H9a9 9 0 0 1-9-10L11 10A11 11 0 0 1 22 0h199a9 9 0 0 1 9 10l-11 127a11 11 0 0 1-11 10Z" data-name="Path 556" />
+    <path fill="#407bff" d="M208 137H18L29 10h190Z" data-name="Path 557" />
+    <path fill="#fff" d="M208 137H18L29 10h190Z" data-name="Path 558" />
+    <path fill="#407bff" d="M218 26H27l2-16h190Z" data-name="Path 559" />
+    <ellipse cx="6" cy="5.5" fill="#407bff" data-name="Ellipse 236" rx="6" ry="5.5" transform="rotate(-44 132 -94)" />
+    <ellipse cx="6" cy="5.5" fill="#263238" data-name="Ellipse 237" rx="6" ry="5.5" transform="rotate(-44 124 12)" />
+    <path fill="#407bff" d="M96 101a6 6 0 0 1-6 6 5 5 0 0 1-5-6 6 6 0 0 1 6-6 5 5 0 0 1 5 6Z" data-name="Path 560" />
+    <path fill="#263238" d="M35 55v-1a3 3 0 0 0 2 1l1-1s-3 0-3-2l2-1a3 3 0 0 1 2 0v1a3 3 0 0 0-2 0h-1c0 1 3 0 3 2l-2 2a4 4 0 0 1-2-1Z" data-name="Path 561" />
+    <path fill="#263238" d="M58 56v-3l-1 2h-1l-1-2v3h-2l1-5h1l1 3 2-3h2l-1 5Z" data-name="Path 562" />
+    <path fill="#263238" d="M74 52h-2l1-1h4v1h-2v4h-1Z" data-name="Path 563" />
+    <path fill="#263238" d="m99 51-2 5h-2v-3l-2 3h-1l-1-5h1l1 3 1-3h1l1 3 1-3Z" data-name="Path 564" />
+    <path fill="#263238" d="M110 52h-1v-1h4v1h-1l-1 4h-1Z" data-name="Path 565" />
+    <path fill="#263238" d="M129 52v1h2v1h-2l-1 2h-1v-5h4v1Z" data-name="Path 566" />
+    <path fill="#263238" d="M145 55v-1a3 3 0 0 0 2 1l1-1s-3 0-3-2l2-1a3 3 0 0 1 2 0v1a3 3 0 0 0-2 0c0 1 2 0 2 2l-2 2a4 4 0 0 1-2-1Z" data-name="Path 567" />
+    <path fill="#263238" d="m74 63-1 5h-1v-4h-1l1-1Z" data-name="Path 568" />
+    <path fill="#263238" d="M93 67v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 3-1l1 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 569" />
+    <path fill="#263238" d="M111 66c0 1 0 2-2 2a4 4 0 0 1-2-1l1-1a2 2 0 0 0 1 1l1-1h-1v-1l1-1h-2v-1h3v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 570" />
+    <path fill="#263238" d="M130 67v1h-2v-1h-2v-1l2-3h2l-3 3h1v-1h2v1h1Z" data-name="Path 571" />
+    <path fill="#263238" d="m148 66-2 2a3 3 0 0 1-2-1v-1a2 2 0 0 0 2 1v-1h-2l1-3h3v1h-2v1l2 1Z" data-name="Path 572" />
+    <path fill="#263238" d="M37 78a2 2 0 0 1-2 2c-1 0-2-1-2-3a3 3 0 0 1 3-2 3 3 0 0 1 1 0v1a1 1 0 0 0-1 0 1 1 0 0 0-2 1 2 2 0 0 1 1 0 1 1 0 0 1 2 1Zm-1 0a1 1 0 0 0-1 0 1 1 0 0 0-1 0l1 1a1 1 0 0 0 1-1Z" data-name="Path 573" />
+    <path fill="#263238" d="m56 75-1 1-2 4h-1l2-4h-1l-1 1h-1v-2Z" data-name="Path 574" />
+    <path fill="#263238" d="M75 78c-1 1-1 2-3 2s-2-1-2-2a1 1 0 0 1 1-1 1 1 0 0 1 0-1l2-1c1 0 2 0 1 1a1 1 0 0 1 0 1 1 1 0 0 1 1 1Zm-2 0h-1v1a1 1 0 0 0 1-1Zm-1-2 1 1a1 1 0 0 0 0-1 1 1 0 0 0-1 0Z" data-name="Path 575" />
+    <path fill="#263238" d="M93 77a3 3 0 0 1-3 3 3 3 0 0 1-2-1l1-1a1 1 0 0 0 1 1 1 1 0 0 0 1-1 2 2 0 0 1-1 0 1 1 0 0 1-1-2 2 2 0 0 1 2-1l2 2Zm-2-1a1 1 0 0 0-1 0 1 1 0 0 0 0 1 1 1 0 0 0 1-1Z" data-name="Path 576" />
+    <path fill="#263238" d="M109 75v5h-2l1-4h-1v-1Z" data-name="Path 577" />
+    <path fill="#263238" d="M110 77a2 2 0 0 1 2-2l2 2a2 2 0 0 1-3 3c-1 0-2-1-1-3Zm2 0v-1l-1 1 1 2v-2Z" data-name="Path 578" />
+    <path fill="#263238" d="M127 75v5h-2l1-4h-1v-1Z" data-name="Path 579" />
+    <path fill="#263238" d="M130 75v5h-2l1-4h-1v-1Z" data-name="Path 580" />
+    <path fill="#263238" d="M145 75v5h-1v-4h-1v-1Z" data-name="Path 581" />
+    <path fill="#263238" d="M149 79v1h-3v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 582" />
+    <path fill="#fff" d="M34 87v5h-2l1-4h-1v-1Z" data-name="Path 583" />
+    <path fill="#fff" d="M38 90c0 1 0 2-2 2a3 3 0 0 1-2-1l1-1a2 2 0 0 0 1 1l1-1h-1v-1l1-1h-2v-1h3v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 584" />
+    <path fill="#263238" d="m53 87-1 5h-1v-4h-1v-1Z" data-name="Path 585" />
+    <path fill="#263238" d="M58 91h-1v1h-2v-1h-2v-1l2-3h2l-2 3h1v-1h1v1h1Z" data-name="Path 586" />
+    <path fill="#263238" d="m72 87-1 5h-1v-4h-1v-1Z" data-name="Path 587" />
+    <path fill="#263238" d="m76 90-2 2a3 3 0 0 1-2-1v-1a2 2 0 0 0 2 1l1-1h-3l1-3h3v1h-2v1l2 1Z" data-name="Path 588" />
+    <path fill="#263238" d="m90 87-1 5h-1v-4h-1l1-1Z" data-name="Path 589" />
+    <path fill="#263238" d="M94 90a2 2 0 0 1-2 2c-1 0-2-1-2-3a3 3 0 0 1 3-2 3 3 0 0 1 2 0l-1 1a1 1 0 0 0-1 0 1 1 0 0 0-1 1 2 2 0 0 1 1 0 1 1 0 0 1 1 1Zm-1 0a1 1 0 0 0-1-1 1 1 0 0 0 0 1 1 1 0 0 0 0 1 1 1 0 0 0 1-1Z" data-name="Path 590" />
+    <path fill="#263238" d="M108 87v5h-2l1-4h-1v-1Z" data-name="Path 591" />
+    <path fill="#263238" d="M113 87v1l-2 4h-2l2-4h-1v1h-2l1-2Z" data-name="Path 592" />
+    <path fill="#263238" d="M126 87v5h-2l1-4h-1v-1Z" data-name="Path 593" />
+    <path fill="#263238" d="M131 90c0 1-1 2-3 2s-2-1-1-2a1 1 0 0 1 0-1 1 1 0 0 1 0-1l2-1 2 1a1 1 0 0 1-1 1 1 1 0 0 1 1 1Zm-2 0a1 1 0 0 0-1 0l1 1a1 1 0 0 0 0-1Zm-1-2 1 1a1 1 0 0 0 0-1 1 1 0 0 0-1 0Z" data-name="Path 594" />
+    <path fill="#263238" d="M144 87v5h-2l1-4h-1v-1Z" data-name="Path 595" />
+    <path fill="#263238" d="M149 89a3 3 0 0 1-3 3 3 3 0 0 1-1-1v-1a1 1 0 0 0 1 1 1 1 0 0 0 1-2 2 2 0 0 1-1 1 1 1 0 0 1-1-2 2 2 0 0 1 2-1c1 0 2 0 2 2Zm-2-1a1 1 0 0 0-1 0 1 1 0 0 0 1 1 1 1 0 0 0 0-1Z" data-name="Path 596" />
+    <path fill="#263238" d="M34 103v1h-3v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 597" />
+    <path fill="#263238" d="M35 101a2 2 0 0 1 2-2c2 0 2 1 2 2a2 2 0 0 1-2 3c-1 0-2-1-2-3Zm3 0-1-1-1 1 1 2 1-2Z" data-name="Path 598" />
+    <path fill="#263238" d="M53 103v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 599" />
+    <path fill="#263238" d="m56 99-1 5h-1v-4h-1v-1Z" data-name="Path 600" />
+    <path fill="#263238" d="M72 103v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 601" />
+    <path fill="#263238" d="M76 103v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 602" />
+    <path fill="#263238" d="M90 103v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2h-1Z" data-name="Path 603" />
+    <path fill="#263238" d="M94 102c0 1 0 2-2 2a3 3 0 0 1-2-1l1-1a2 2 0 0 0 1 1l1-1h-1v-1l1-1h-2v-1h3v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 604" />
+    <path fill="#263238" d="M108 103v1h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0 2 2 0 0 1 2-1l1 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 605" />
+    <path fill="#263238" d="M113 103h-1v1h-1v-1h-2v-1l2-3h2l-3 3h1v-1h2v1Z" data-name="Path 606" />
+    <path fill="#263238" d="M126 103v1h-3v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1c1 0 2 0 1 1a2 2 0 0 1 0 2l-1 1Z" data-name="Path 607" />
+    <path fill="#263238" d="M131 102c0 1-1 2-3 2a3 3 0 0 1-1-1v-1a2 2 0 0 0 1 1l1-1h-2l1-3h3v1h-3 1l2 2Z" data-name="Path 608" />
+    <path fill="#263238" d="m145 103-1 1h-3v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 609" />
+    <path fill="#263238" d="M149 102a2 2 0 0 1-2 2c-1 0-2-1-2-3a3 3 0 0 1 3-2 3 3 0 0 1 1 0v1a1 1 0 0 0-1 0 1 1 0 0 0-1 1 2 2 0 0 1 1-1 1 1 0 0 1 1 2Zm-1 0a1 1 0 0 0-1-1 1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1Z" data-name="Path 610" />
+    <path fill="#263238" d="M33 114v2h-3v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1c1 0 2 0 1 1a2 2 0 0 1-1 2Z" data-name="Path 611" />
+    <path fill="#263238" d="M38 111v1l-2 4h-2l2-4h-2v-1Z" data-name="Path 612" />
+    <path fill="#263238" d="M52 114v2h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2h-1Z" data-name="Path 613" />
+    <path fill="#263238" d="m56 114-2 2-2-2a1 1 0 0 1 1-1 1 1 0 0 1 0-1l2-1c2 0 1 0 1 1a1 1 0 0 1 0 1 1 1 0 0 1 0 1Zm-1 0-1-1a1 1 0 0 0 0 1v1a1 1 0 0 0 1-1Zm-1-2 1 1a1 1 0 0 0 0-1 1 1 0 0 0-1 0Z" data-name="Path 614" />
+    <path fill="#263238" d="M71 114v2h-4v-1l2-2 1-1a1 1 0 0 0-1 0 1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2h-1Z" data-name="Path 615" />
+    <path fill="#263238" d="M76 113a3 3 0 0 1-3 3 3 3 0 0 1-2-1l1-1a1 1 0 0 0 1 1 1 1 0 0 0 1-2 2 2 0 0 1-1 1 1 1 0 0 1-2-2 2 2 0 0 1 2-1c2 0 3 0 3 2Zm-2-1a1 1 0 0 0-1 0 1 1 0 0 0 0 1 1 1 0 0 0 1-1Z" data-name="Path 616" />
+    <path fill="#263238" d="m89 114-2 2a4 4 0 0 1-2-1l1-1a2 2 0 0 0 1 1l1-1h-2l1-1v-1h-1v-1h3v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 617" />
+    <path fill="#263238" d="M90 113a2 2 0 0 1 2-2c1 0 2 0 2 2a2 2 0 0 1-2 3c-2 0-3-1-2-3Zm3 0-1-1-1 1 1 1 1-1Z" data-name="Path 618" />
+    <path fill="#263238" d="m39 33-3 3 2 3Z" data-name="Path 619" />
+    <path fill="#263238" d="m152 33 2 3-3 3Z" data-name="Path 620" />
+    <path fill="#263238" d="M118 39H72v-6h46Z" data-name="Path 621" />
+    <path fill="#407bff" d="M208 137h-52l9-111h53Z" data-name="Path 622" />
+    <path d="M208 137h-52l9-111h53Z" data-name="Path 623" />
+    <path fill="#fff" d="M175 71h-5a2 2 0 0 1-3-3l2-18a3 3 0 0 1 3-2h5a2 2 0 0 1 2 2l-2 18a3 3 0 0 1-2 3Z" data-name="Path 624" />
+    <path fill="#263238" d="m175 61-3 1a4 4 0 0 1-1 0v-1a2 2 0 0 0 1 0h1v-1h-1l1-1h-2v-1h4l-2 1a1 1 0 0 1 2 2Z" data-name="Path 625" />
+    <path fill="#407bff" d="M206 71h-25a2 2 0 0 1-2-3l2-18a3 3 0 0 1 2-2h25a2 2 0 0 1 2 2l-1 18a3 3 0 0 1-3 3Z" data-name="Path 626" />
+    <path fill="#263238" d="M204 99h-25a2 2 0 0 1-2-2l1-19a3 3 0 0 1 3-2h25a2 2 0 0 1 2 2l-2 19a3 3 0 0 1-2 2Z" data-name="Path 627" />
+    <path fill="#407bff" d="M201 127h-25a2 2 0 0 1-2-2l2-19a3 3 0 0 1 2-2h25a2 2 0 0 1 2 2l-1 19a3 3 0 0 1-3 2Z" data-name="Path 628" />
+    <path fill="#fff" d="M172 99h-5a2 2 0 0 1-2-2l2-19a3 3 0 0 1 2-2h5a2 2 0 0 1 2 2l-1 19a3 3 0 0 1-3 2Z" data-name="Path 629" />
+    <path fill="#263238" d="m170 84-1 5h-1v-4h-1v-1Z" data-name="Path 630" />
+    <path fill="#263238" d="M174 87c0 1-1 2-3 2a3 3 0 0 1-1 0v-1a2 2 0 0 0 2 0v-1c0-1 0 0 0 0h-1v-1l1-1h-2v-1h4v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 631" />
+    <path fill="#fff" d="M170 127h-5a2 2 0 0 1-2-2l1-19a3 3 0 0 1 3-2h5a2 2 0 0 1 2 2l-2 19a3 3 0 0 1-2 2Z" data-name="Path 632" />
+    <path fill="#fff" d="M207 39h-32l1-6h31Z" data-name="Path 633" />
+    <path fill="#fff" d="M98 18a3 3 0 0 1 3-3 3 3 0 0 1 3 1l-1 1a2 2 0 0 0-2-1 2 2 0 0 0-1 2 1 1 0 0 0 1 2 2 2 0 0 0 2-1l1 1a3 3 0 0 1-3 1 3 3 0 0 1-3-3Z" data-name="Path 634" />
+    <path fill="#fff" d="M108 20h-2l-1 1h-2l3-6h2l2 6h-2Zm0-1-1-2-1 2Z" data-name="Path 635" />
+    <path fill="#fff" d="M111 15h2l-1 5h3v1h-4Z" data-name="Path 636" />
+    <path fill="#fff" d="m121 20-1 1h-4v-6h5v1h-3v1h2v2h-2l-1 1Z" data-name="Path 637" />
+    <path fill="#fff" d="M127 15v6h-1l-3-3v3h-2l1-6h1l3 3v-3Z" data-name="Path 638" />
+    <path fill="#fff" d="M129 15h2c2 0 4 1 3 3a3 3 0 0 1-3 3h-3Zm2 5a2 2 0 0 0 2-2 1 1 0 0 0-2-2h-1v4Z" data-name="Path 639" />
+    <path fill="#fff" d="M139 20h-3v1h-2l3-6h2l2 6h-2Zm0-1-1-2-1 2Z" data-name="Path 640" />
+    <path fill="#fff" d="M144 19h-1v2h-2l1-6h3l2 2a2 2 0 0 1-1 2l1 2h-2Zm0-3h-1v2h1l1-1-1-1Z" data-name="Path 641" />
+    <path fill="#fff" d="M38 20h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1Z" data-name="Path 642" />
+    <path fill="#fff" d="M43 20h-1a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1Z" data-name="Path 643" />
+    <path fill="#fff" d="M47 20a1 1 0 0 1-1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-2 1Z" data-name="Path 644" />
+    <path fill="#263238" d="M168 118v1h-4v-1l2-2v-1a1 1 0 0 0-1 0h-1a2 2 0 0 1 2-1l2 1a2 2 0 0 1-1 2l-1 1Z" data-name="Path 645" />
+    <path fill="#263238" d="m172 117-2 2a4 4 0 0 1-2-1v-1a2 2 0 0 0 2 1l1-1h-2v-1l1-1h-2v-1h4v1l-1 1a1 1 0 0 1 1 1Z" data-name="Path 646" />
+    <path fill="#fff" d="M205 57h-21l1-1h20Z" data-name="Path 647" />
+    <path fill="#fff" d="M194 60h-10 10Z" data-name="Path 648" />
+    <path fill="#fff" d="M200 113h-20v-1h20Z" data-name="Path 649" />
+    <path fill="#fff" d="M190 117h-11v-1h11Z" data-name="Path 650" />
+    <path fill="#fff" d="M203 85h-21v-1h21Z" data-name="Path 651" />
+    <path fill="#fff" d="M192 88h-10 10Z" data-name="Path 652" />
+    <path fill="#fff" d="m205 51 1-1 1 1c1 1 0 1-1 1l-1-1Z" data-name="Path 653" />
+    <path fill="#fff" d="M206 50v-1l1 1h-1Zm0-1v1h1l-1-1Z" data-name="Path 654" />
+    <path fill="#fff" d="m203 80 1-2 1 2h-2Z" data-name="Path 655" />
+    <path fill="#fff" d="M204 78Zm0 0Z" data-name="Path 656" />
+    <path fill="#fff" d="m200 108 1-2 1 2h-2Z" data-name="Path 657" />
+    <path fill="#fff" d="M201 106h1-1Zm0 0h1-1Z" data-name="Path 658" />
+    <path fill="#fff" d="M45 0 6 147h13L58 0Z" data-name="Path 659" opacity=".2" />
+    <path fill="#fff" d="M66 0 26 147h27L92 0Z" data-name="Path 660" opacity=".2" />
+    <circle cx="5.6" cy="5.6" r="5.6" fill="#fff" data-name="Ellipse 238" opacity=".4" transform="rotate(-77 51 32)" />
+    <path fill="#fff" d="M222 71a3 3 0 1 1-1-2 3 3 0 0 1 1 2Z" data-name="Path 661" opacity=".4" />
+    <path fill="#fff" d="M200 22a4 4 0 0 1-4-5 5 5 0 0 1 5-5v1a5 5 0 0 0-5 4 4 4 0 0 0 4 5Z" data-name="Path 666" />
+    <path fill="#fff" d="M200 22a5 5 0 0 1-5-5 6 6 0 0 1 6-5v1a5 5 0 0 0-5 4 4 4 0 0 0 4 5Z" data-name="Path 667" />
+    <path fill="#fff" d="M200 22a5 5 0 0 0 5-5 4 4 0 0 0-4-4v-1a4 4 0 0 1 4 5 5 5 0 0 1-5 5Z" data-name="Path 668" />
+    <path fill="#fff" d="M200 22a5 5 0 0 0 5-5 4 4 0 0 0-4-4v-1a5 5 0 0 1 4 5 6 6 0 0 1-5 5Z" data-name="Path 669" />
+    <path fill="#fff" d="M203 17a5 5 0 0 0-2-4v-1a6 6 0 0 1 2 5Z" data-name="Path 670" />
+    <path fill="#fff" d="M203 17h-1a5 5 0 0 0-1-4h-1l1-1a6 6 0 0 1 2 5Z" data-name="Path 671" />
+    <path fill="#fff" d="M200 22a7 7 0 0 0 3-5 7 7 0 0 1-3 5Z" data-name="Path 672" />
+    <path fill="#fff" d="M200 22a6 6 0 0 0 2-5h1a7 7 0 0 1-3 5Z" data-name="Path 673" />
+    <path fill="#fff" d="M198 17a7 7 0 0 1 3-5v1a7 7 0 0 0-3 4Z" data-name="Path 674" />
+    <path fill="#fff" d="M198 17a7 7 0 0 1 3-5v1a6 6 0 0 0-3 4Z" data-name="Path 675" />
+    <path fill="#fff" d="M200 22a6 6 0 0 1-2-5 5 5 0 0 0 2 5Z" data-name="Path 676" />
+    <path fill="#fff" d="M200 22a6 6 0 0 1-2-5 5 5 0 0 0 2 5Z" data-name="Path 677" />
+    <path fill="#fff" d="m200 22 1-9Z" data-name="Path 678" />
+    <path fill="#fff" d="m200 22 1-10Z" data-name="Path 679" />
+    <path fill="#fff" d="M205 15h-8 8Z" data-name="Path 680" />
+    <path fill="#fff" d="M205 15h-9v-1h9Z" data-name="Path 681" />
+    <path fill="#fff" d="M205 17h-9 9Z" data-name="Path 682" />
+    <path fill="#fff" d="M205 18h-10v-1h10Z" data-name="Path 683" />
+    <path fill="#fff" d="M204 20h-8 8Z" data-name="Path 684" />
+    <path fill="#fff" d="M204 20h-8 8Z" data-name="Path 685" />
+  </g>
+  <path fill="#407bff" d="M264 156a7 7 0 0 1 5 4c1 4 5 6 8 6a6 6 0 0 1 4 1l1 1v-1a10 10 0 0 1-1-1 2 2 0 0 0-1 0c-3-4-3-7-7-10s-9 0-9 0Z" data-name="Path 545" />
+  <path fill="#407bff" d="M297 152a7 7 0 0 0-4 5c-1 4-5 7-8 7a6 6 0 0 0-3 2l-1 1a8 8 0 0 0 0-1l1-1c3-4 2-7 6-11s9-2 9-2Z" data-name="Path 546" />
+  <path fill="#407bff" d="M282 166a22 22 0 0 1 0 6c-2 8-3 5-3 5l2-10a8 8 0 0 0 0-1 17 17 0 0 0-1-5c-2-5-6-7-7-13s4-11 4-11a9 9 0 0 0 3 8c3 3 4 9 2 12v9Z" data-name="Path 547" />
+  <path fill="#407bff" d="M286 197h-13a3 3 0 0 1-2-2l-3-24h23l-3 24a3 3 0 0 1-2 2Z" data-name="Path 548" />
+  <path fill="#407bff" d="M293 171v4h-2l-3 20a3 3 0 0 1-3 2h-12a3 3 0 0 1-2-2l-3-20h-3v-4Z" data-name="Path 549" />
+  <path d="M293 171v4h-2l-3 20a3 3 0 0 1-3 2h-12a3 3 0 0 1-2-2l-3-20h-3v-4Z" data-name="Path 550" opacity=".5" />
+</svg>

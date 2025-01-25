@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders user index page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+  <div
+    class="flex justify-center"
+    style="color: rgb(24, 26, 32);"
+  >
+    <div
+      class="flex flex-col items-center mt-14 text-white max-w-md w-full "
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="text-3xl"
+        style="color: rgb(24, 26, 32);"
+      >
+        User Profile 
+      </div>
+      <img
+        alt="Profile Image"
+        class="w-40 h-40 bg-contain bg-center rounded-full object-cover mt-8 border-2"
+        data-nimg="1"
+        decoding="async"
+        height="160"
+        loading="lazy"
+        src="/_next/image?url=%2Ftest.png&w=384&q=75"
+        srcset="/_next/image?url=%2Ftest.png&w=256&q=75 1x, /_next/image?url=%2Ftest.png&w=384&q=75 2x"
+        style="color: transparent; border-color: #3763e9;"
+        width="160"
+      />
+      <div
+        class="text-white text-xl mt-8"
+        style="color: rgb(24, 26, 32);"
+      >
+        John Doe
+      </div>
+      <div
+        class="text-white text-sm"
+        style="color: rgb(24, 26, 32);"
+      >
+        test@email.com
+      </div>
+      <div
+        class="text-white mt-8"
+        style="color: rgb(24, 26, 32);"
+      >
+        Member
+         Account
+      </div>
+      <div
+        class="text-white text-sm"
+        style="color: rgb(24, 26, 32);"
+      >
+        448 Studio
+      </div>
+       
+      <div
+        class="flex space-x-4 my-8 w-full"
+        style="color: rgb(24, 26, 32);"
+      >
+        <button
+          class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+          style="background-color: rgb(55, 99, 233);"
+          type="button"
+        >
+          <span
+            class="relative z-10"
+            style="color: white;"
+          >
+            Enable Anonymous Mode
+          </span>
+        </button>
+      </div>
+      <div
+        class="flex space-x-4 my-8 w-full"
+        style="color: rgb(24, 26, 32);"
+      >
+        <button
+          class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+          style="background-color: rgb(55, 99, 233);"
+          type="button"
+        >
+          <span
+            class="relative z-10"
+            style="color: white;"
+          >
+            Edit Profile
+          </span>
+        </button>
+        <button
+          class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+          style="background-color: rgb(55, 99, 233);"
+          type="button"
+        >
+          <span
+            class="relative z-10"
+            style="color: white;"
+          >
+            Change Password
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

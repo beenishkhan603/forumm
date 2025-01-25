@@ -1,0 +1,699 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders event register page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  >
+    <div
+      class="fixed w-full h-full top-0 left-0 bg-black z-40 flex items-center justify-center"
+      id="modal"
+      style="z-index: 99; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        class="relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] border border-forumm-menu-border overflow-y-auto "
+        style="background: rgb(255, 255, 255); opacity: 0; transform: scale(0) translateZ(0);"
+      >
+        <div
+          class="sticky top-0 flex w-full items-center py-3 box-border min-h-16"
+          style="background-color: rgb(255, 255, 255); z-index: 1000;"
+        >
+          <div
+            class="text-center text-lg flex-1 font-semibold"
+          />
+        </div>
+        <div
+          class="w-full"
+        >
+          <div
+            class="flex flex-col items-center justify-center"
+            style="color: rgb(24, 26, 32);"
+          >
+            <img
+              alt="profileImage"
+              class="w-16 h-16 rounded-full object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="500"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=1080&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimages-qa.forumm.to%2Fuser-content%2Fb01ee7a7-8cd8-46ed-8974-d32e689e6a79%2Ffda5515b-791f-4102-a345-06a061f44f9b.jpg&w=1080&q=75 2x"
+              style="color: transparent;"
+              width="500"
+            />
+            <div
+              class="flex justify-center space-x-4 items-center text-xl py-8"
+              style="color: rgb(24, 26, 32);"
+            >
+              <svg
+                class="animate-ping text-green-500"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M391 480c-19.52 0-46.94-7.06-88-30-49.93-28-88.55-53.85-138.21-103.38C116.91 298.77 93.61 267.79 61 208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82 73.38 58.16 62.65 74.11 52a176.3 176.3 0 0128.64-15.2c1-.43 1.93-.84 2.76-1.21 4.95-2.23 12.45-5.6 21.95-2 6.34 2.38 12 7.25 20.86 16 18.17 17.92 43 57.83 52.16 77.43 6.15 13.21 10.22 21.93 10.23 31.71 0 11.45-5.76 20.28-12.75 29.81-1.31 1.79-2.61 3.5-3.87 5.16-7.61 10-9.28 12.89-8.18 18.05 2.23 10.37 18.86 41.24 46.19 68.51s57.31 42.85 67.72 45.07c5.38 1.15 8.33-.59 18.65-8.47 1.48-1.13 3-2.3 4.59-3.47 10.66-7.93 19.08-13.54 30.26-13.54h.06c9.73 0 18.06 4.22 31.86 11.18 18 9.08 59.11 33.59 77.14 51.78 8.77 8.84 13.66 14.48 16.05 20.81 3.6 9.53.21 17-2 22-.37.83-.78 1.74-1.21 2.75a176.49 176.49 0 01-15.29 28.58c-10.63 15.9-21.4 28.21-39.38 36.58A67.42 67.42 0 01391 480z"
+                />
+              </svg>
+              <div
+                style="color: rgb(24, 26, 32);"
+              >
+                Paul Pirie
+                 Calling...
+              </div>
+            </div>
+            <div
+              class="flex space-x-2 w-full"
+              style="color: rgb(24, 26, 32);"
+            >
+              <button
+                class="
+      border-red-600 text-red-600 border rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+                type="button"
+              >
+                <span
+                  class="relative z-10"
+                  style="color: white;"
+                >
+                  Decline
+                </span>
+              </button>
+              <button
+                class="
+      border-green-500 text-green-500 border rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center flex-1"
+                type="button"
+              >
+                <span
+                  class="relative z-10"
+                  style="color: white;"
+                >
+                  Accept
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="overflow-hidden min-h-screen flex flex-col h-full"
+    style="color: rgb(24, 26, 32);"
+  >
+    <header>
+      <div
+        class="sticky top-0 left-0 w-full z-[1000] flex px-4 md:px-20 lg:px-[156px] justify-between border-b border-forumm-menu-border  items-center h-[65px] sm:h-[75px]"
+        style="color: rgb(24, 26, 32); background: rgba(255, 255, 255, 0.6);"
+      >
+        <div
+          class="flex items-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <button>
+            <div
+              class="flex items-center hover:animate-heartbeat"
+              style="color: rgb(24, 26, 32);"
+            >
+              <img
+                alt="Logo"
+                class="hidden md:flex h-14 w-14 rounded-md object-cover mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/images/ForummLogo.svg"
+                srcset="/images/ForummLogo.svg 1x, /images/ForummLogo.svg 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <div
+                class="flex flex-col"
+                style="color: rgb(24, 26, 32);"
+              >
+                <svg
+                  class="w-20 h-8 -ml-1"
+                />
+                <span
+                  class="text-xs text-left min-h-[20px]"
+                >
+                  448 Studio
+                </span>
+              </div>
+            </div>
+          </button>
+          <div
+            class="hidden md:block ml-6 font-medium text-xl"
+            style="color: rgb(24, 26, 32);"
+          />
+        </div>
+        <div
+          class="flex space-x-4 items-center cursor-pointer"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="flex items-center space-x-2 md:space-x-6 mr-3 md:mr-6"
+          >
+            <span
+              class="border-l-2 border-textColour h-8"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=" w-64 absolute px-6 right-0 mr-7 flex flex-col space-y-2 text-lg transition-all h-0 overflow-hidden -mt-[1px] rounded-xl border-t-0 rounded-tl-none rounded-tr-none shadow-md"
+        style="z-index: 999999; background-color: rgb(251, 252, 254); border: 0px solid #e5e7eb;"
+      >
+        <div
+          class="cursor-pointer flex items-center textColour text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 496 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            User Profile
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour text-base pt-1 leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2 text-181A20"
+          />
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Support
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour pt-1 text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M17 8l-1.41 1.41L17.17 11H9v2h8.17l-1.58 1.58L17 16l4-4-4-4zM5 5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v-2H5V5z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Logout
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="flex flex-col flex-1"
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="overflow-y-scroll overflow-x-hidden h-[calc(100vh)] -mt-[80px] pt-[80px] relative event-register-root"
+        id="event-register-root"
+        style="color: rgb(24, 26, 32);"
+      >
+        <div
+          class="relative px-2 pt-9 pb-9 border-b border-forumm-menu-border"
+          style="--color-change-start: #11339c; --color-change-middle: #3763e9; --color-change-end: #9fb4f4;"
+        >
+          <video
+            autoplay=""
+            class="absolute inset-0 w-full h-full object-cover select-none no-controls"
+            loop=""
+            playsinline=""
+          >
+            <source
+              src="https://forumm-images-prod.s3.eu-west-1.amazonaws.com/user-content/manual-upload/video-background.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div
+            class="flex flex-col md:flex-row items-center justify-center space-y-6 md:space-y-0"
+            style="color: rgb(24, 26, 32);"
+          >
+            <div
+              class="rounded-2xl shadow-lg flex p-10 md:p-6 md:py-4 md:pt-6 md:pb-6 w-full md:w-[85%] max-w-[1500px] border border-forumm-menu-border"
+              style="background: rgba(255, 255, 255, 0.6);"
+            >
+              <div
+                class="hidden md:flex flex ml-2 items-center"
+                style="color: rgb(24, 26, 32);"
+              >
+                <div
+                  class="md:h-[250px] md:w-[250px] w-[250px] h-[240px] md:rounded-2xl rounded-md overflow-hidden flex flex-col justify-start items-center mx-auto md:ml-2"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="h-full w-full bg-cover bg-center"
+                    style="background-image: url(https://assets.tumblr.com/images/default_header/optica_pattern_11.png);"
+                  />
+                </div>
+              </div>
+              <div
+                class="md:w-full ml-2 md:ml-20 md:mr-10 ml-0 flex"
+                style="color: rgb(24, 26, 32);"
+              >
+                <div
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="flex flex-row items-center mb-2"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <img
+                      alt="Thumbnail Image"
+                      class="h-10 w-10 rounded-full mr-4 object-cover"
+                      data-nimg="1"
+                      decoding="async"
+                      height="30"
+                      loading="lazy"
+                      src="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=64&q=75"
+                      srcset="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=64&q=75 2x"
+                      style="color: transparent;"
+                      width="30"
+                    />
+                    <div
+                      class="flex items-center text-[14px]"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      Forumm
+                    </div>
+                  </div>
+                  <div
+                    class="text-[36px] w-full"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    Forumm Demo Event
+                  </div>
+                  <div
+                    class="mb-6"
+                    style="white-space: pre-wrap;"
+                  >
+                    <div
+                      class="text-[16px] md:text-[16px] mt-4 mb-4"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <p
+                        style="white-space: pre-wrap; margin: 0px;"
+                      >
+                        <span
+                          class="break-words"
+                        >
+                          Test2
+                           
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="flex mb-4"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="flex flex-col space-y-2 mr-4"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <div
+                        class="text-md font-medium"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Start Time/Date
+                      </div>
+                      <div
+                        class="text-xs md:text-sm"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        May 05, 12:00 AM
+                      </div>
+                    </div>
+                    <div
+                      class="flex flex-col space-y-2"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <div
+                        class="text-md font-medium"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        End Time/Date
+                      </div>
+                      <div
+                        class="text-xs md:text-sm"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        May 05, 12:00 AM
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-4 text-xs md:text-sm"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    Having trouble? Email
+                     
+                    <a
+                      class="underline"
+                      href="mailto:hello@forumm.to"
+                    >
+                      hello@forumm.to
+                    </a>
+                    .
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-full flex justify-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="w-full md:w-[85%] max-w-[1500px]"
+            style="color: rgb(24, 26, 32);"
+          >
+            <div
+              class=""
+              style="color: rgb(24, 26, 32);"
+            >
+              <div
+                class="mt-8 sm:my-8 rounded-2xl flex flex-col sm:flex-row text-white pt-8 px-2 sm:py-8 min-h-[400px] mb-6 border border-forumm-menu-border"
+                id="donation-box"
+                style="background-color: rgb(251, 252, 254); color: rgb(24, 26, 32);"
+              >
+                <div
+                  class="w-full flex flex-col sm:flex-row"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <div
+                    class="w-full sm:w-1/2"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="flex mb-2 justify-center items-center text-2xl"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      Kindly confirm your attendance to this event:
+                    </div>
+                    <form
+                      class=""
+                    >
+                      <label
+                        class="flex flex-col space-y-1 text-sm mt-2 "
+                      >
+                        <select
+                          class="transition-all bg-transparent border  rounded-2xl px-4 pt-[15px] pb-[14px] text-sm outline-none cursor-pointer  none border-0 outline outline-1 outline-gray-400 border-r-[10px] border-transparent"
+                          id="ticket-dropdown"
+                        >
+                          <option
+                            disabled=""
+                            value=""
+                          >
+                            Select a Ticket
+                          </option>
+                          <option
+                            class="capitalize"
+                            value="TEST"
+                          >
+                            Test
+                          </option>
+                        </select>
+                        <div
+                          class="transition-all opacity-0 text-red-500 text-sm font-bold"
+                        />
+                      </label>
+                      <fieldset
+                        class="rounded-2xl transition-all bg-transparent   rounded text-sm outline-none placeholder-gray-500 bg-transparent rounded text-sm border-box -mt-1 flex-"
+                      >
+                        <div
+                          class="flex items-center justify-center w-full p-2 px-4"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          <input
+                            class="h-4 w-4 text-forumm-blue border-gray-300 inline-block"
+                            name="Additional Tickets"
+                            type="checkbox"
+                          />
+                          <div
+                            class="inline-block ml-2"
+                            style="color: rgb(24, 26, 32);"
+                          >
+                            <span
+                              class="mt-2"
+                            >
+                              I require additional tickets.
+                            </span>
+                          </div>
+                        </div>
+                        <div
+                          class="transition-all opacity-0 text-red-500 text-sm font-bold"
+                        />
+                      </fieldset>
+                      <div
+                        class="flex flex-col"
+                        style="color: rgb(24, 26, 32);"
+                      />
+                      <div
+                        class="text-xs pt-2"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Before continuing, please make sure to carefully check the event details, including its location and scheduled time
+                      </div>
+                      <button
+                        class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center w-full mt-4"
+                        style="background-color: rgb(55, 99, 233);"
+                        type="submit"
+                      >
+                        <span
+                          class="relative z-10"
+                          style="color: white;"
+                        >
+                          Confirm
+                        </span>
+                      </button>
+                      <div
+                        class="flex justify-center items-center mt-2"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Joining with new account?
+                        <div
+                          class="underline cursor-pointer text-forumm-blue ml-2"
+                          href="#"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Register here
+                        </div>
+                      </div>
+                    </form>
+                    <div
+                      class="flex justify-center items-center mb-20 mt-4"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <a
+                        class="underline cursor-pointer"
+                        href="/event/123"
+                      >
+                        Back to Event
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full sm:w-1/2 px-6 flex flex-col"
+                    style="color: rgb(24, 26, 32);"
+                  >
+                    <div
+                      class="text-3xl font-bold"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      Forumm Demo Event
+                    </div>
+                    <div
+                      class="flex items-center space-x-2 mt-2"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <img
+                        alt="Thumbnail Image"
+                        class="h-8 w-8 rounded-lg block object-cover"
+                        data-nimg="1"
+                        decoding="async"
+                        height="96"
+                        loading="lazy"
+                        src="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=256&q=75"
+                        srcset="/_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=96&q=75 1x, /_next/image?url=https%3A%2F%2Fassets.tumblr.com%2Fimages%2Fdefault_header%2Foptica_pattern_11.png&w=256&q=75 2x"
+                        style="color: transparent;"
+                        width="96"
+                      />
+                      <div
+                        class="text-lg"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        Forumm
+                      </div>
+                    </div>
+                    <div
+                      class="mt-4 line-clamp-8 text-sm"
+                      style="color: rgb(24, 26, 32);"
+                    />
+                    <div
+                      class="flex my-4 space-x-6 mt-10"
+                      style="color: rgb(24, 26, 32);"
+                    >
+                      <div
+                        class=" flex flex-col space-y-2"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        <div
+                          class="text-md font-medium"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          Start Date & Time
+                        </div>
+                        <div
+                          class="text-xs md:text-sm"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          May 05, 12:00AM
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col space-y-2"
+                        style="color: rgb(24, 26, 32);"
+                      >
+                        <div
+                          class="text-md font-medium"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          End Date & Time
+                        </div>
+                        <div
+                          class="text-xs md:text-sm"
+                          style="color: rgb(24, 26, 32);"
+                        >
+                          May 05, 12:00AM
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex w-full min-h-[300px] p-16 justify-center bg-forumm-blue-dark "
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="flex flex-col w-auto sm:w-1/3 justify-center text-center"
+        style="color: rgb(24, 26, 32);"
+      >
+        <div
+          class="flex w-full justify-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg />
+          <svg
+            class="mr-2 mt-1.5"
+          />
+        </div>
+        <div
+          class="mt-4"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="!text-white font-normal"
+            style="color: rgb(24, 26, 32);"
+          >
+            Event management & fundraising made simple.
+          </div>
+        </div>
+        <div
+          class="mt-6 flex flex-row justify-center text-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <a
+            href="https://www.linkedin.com/company/68805696/admin/feed/posts/"
+            target="_blank"
+          >
+            <svg
+              class="mr-3 cursor-pointer"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/forummofficial/"
+            target="_blank"
+          >
+            <svg />
+          </a>
+        </div>
+        <div
+          class="mt-4 flex items-center justify-center flex-col sm:flex-row"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            <a
+              class="mx-0 sm:mx-2"
+              href="/privacy"
+              target="_blank"
+            >
+              <div
+                class="text-md !text-white font-regular"
+                style="color: rgb(24, 26, 32);"
+              >
+                Privacy Notice
+              </div>
+            </a>
+          </div>
+        </div>
+        <div
+          class="mt-4"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="text-md !text-white font-regular"
+            style="color: rgb(24, 26, 32);"
+          >
+            © Forumm 
+            2024
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

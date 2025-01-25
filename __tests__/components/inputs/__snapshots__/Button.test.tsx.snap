@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Test Suite Button test 1`] = `
+<div>
+  <div
+    class="bg-black"
+    style="color: rgb(24, 26, 32);"
+  >
+    <button
+      class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center "
+      style="background-color: rgb(55, 99, 233);"
+      type="button"
+    >
+      <span
+        class="relative z-10"
+        style="color: white;"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Button Test Suite Button test 2`] = `
+<div>
+  <div
+    class="bg-black"
+    style="color: rgb(24, 26, 32);"
+  >
+    <button
+      class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center undefined"
+      style="background-color: rgb(241, 241, 241);"
+      type="button"
+    >
+      <span
+        class="relative z-10"
+        style="color: rgb(31, 31, 31);"
+      />
+    </button>
+  </div>
+</div>
+`;

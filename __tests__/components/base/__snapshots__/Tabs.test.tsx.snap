@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders tabs unchanged 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`renders tabs unchanged 2`] = `
+<div>
+  2
+</div>
+`;
+
+exports[`renders tabs unchanged 3`] = `
+<div>
+  3
+</div>
+`;

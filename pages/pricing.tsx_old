@@ -1,0 +1,119 @@
+import { UnauthenticatedWrapperNoFooter } from '@layouts/Wrapper'
+import Box from '@components/base/Box'
+import Text from '@components/base/Text'
+import FooterUnauthenticated from '@components/page/FooterUnauthenticated'
+import ApplicationForm from '@components/become-organiser/ApplicationForm'
+import Packages from '@components/packages/Packages'
+import AddOnsList from '@components/packages/AddOnsList'
+import HelpItems from '@components/packages/HelpItems'
+import { useTheme } from '@libs/useTheme'
+import { useEffect, useState } from 'react'
+import Header from '@components/packages/Header'
+import bgPrincing from '@public/images/login.jpg'
+
+export default function Princing() {
+  const { theme } = useTheme()
+  const titleTextColor =
+    theme.type === 'DARK' ? '!text-white' : '!text-midnight-light'
+
+  const [backgroundWidthFactor, setBackgroundWidthFactor] = useState<number>(1)
+
+  const handleResize = () => {
+    let factor, width
+    width = window.innerWidth / 500
+    factor = width
+
+    // Reset scalling when on large screen
+    if (width > 3)
+      return backgroundWidthFactor !== 1
+        ? setBackgroundWidthFactor(1)
+        : undefined
+    if (width < 1.3 || width > 2) return setBackgroundWidthFactor(2)
+
+    setBackgroundWidthFactor(factor ?? backgroundWidthFactor)
+  }
+
+  useEffect(() => {
+    handleResize()
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  })
+
+  return (
+    <Box
+      className="overflow-y-scroll scrollbar-hide relative"
+      style={{
+        backgroundImage: `url(${bgPrincing.src})`,
+        backgroundSize: `${Math.floor(100 * backgroundWidthFactor)}% 100%`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundColor: theme.backgroundColour,
+      }}
+    >
+      <Header />
+      <Box className="w-full flex flex-col justify-center items-center p-0 sm:p-4 text-center sm:text-start">
+        <Box className="w-[85%] max-w-[1000px] z-10 flex flex-col justify-center items-center">
+          <Text
+            className={`text-4xl md:text-5xl mb-4 !text-black !font-poppins font-semibold !text-midnight-light`}
+          >
+            Hit your targets with a tailored plan
+          </Text>
+          <Text className="text-sm sm:text-base text-center !text-black">
+            Each of our plans is tailored to your specific needs, whether you
+            {`'`}re a growing school, an established university, or just
+            starting your fundraising journey.
+          </Text>
+        </Box>
+      </Box>
+      {/* Center Box */}
+      <Box className="flex flex-col w-full justify-center items-center">
+        <Box
+          id="princing-table"
+          className="flex flex-col w-full p-1 sm:p-4 text-center justify-center items-center"
+        >
+          <Box className="w-full lg:max-w-[1500px] flex flex-col sm:flex-row">
+            <Packages />
+          </Box>
+        </Box>
+      </Box>
+      <Box className="flex flex-col w-full p-10 sm:p-20 text-center justify-center items-center rounded-2xl">
+        <Text
+          className={`text-4xl md:text-5xl sm:w-2/3 max-w-[1024px] !font-poppins font-semibold !text-midnight-light`}
+        >
+          Still need more?
+        </Text>
+        <Text className="text-sm sm:text-base text-center mt-4 !text-black">
+          Boost your success with our expert add-ons
+        </Text>
+
+        <Box className="w-full sm:w-1/2 flex flex-col sm:flex-row">
+          <AddOnsList />
+        </Box>
+      </Box>
+      <Box className="flex flex-col w-full p-10 pb-0 sm:p-20 sm:pb-0 text-center justify-center items-center rounded-2xl">
+        <Text
+          className={`text-4xl md:text-5xl sm:w-1/2 max-w-[560px] !font-poppins font-semibold !text-midnight-light`}
+        >
+          Hands-on support
+        </Text>
+        <Text className="sm:w-1/2 max-w-[760px] mt-4 text-sm sm:text-base text-center !text-black">
+          At Forumm, we have industry experts who specialise in running
+          successful events and fundraising campaigns. We offer workshops and
+          strategy on:
+        </Text>
+        <Box className="w-full sm:w-1/2 flex flex-col sm:flex-row mb-10 -mt-4">
+          <HelpItems />
+        </Box>
+        <Box
+          id="pricing-bottom-area"
+          className="w-full flex flex-col sm:flex-row justify-center items-center mt-10 mb-44"
+        >
+          <ApplicationForm />
+        </Box>
+      </Box>
+      <FooterUnauthenticated transparent={true} />
+    </Box>
+  )
+}
+
+Princing.Layout = UnauthenticatedWrapperNoFooter

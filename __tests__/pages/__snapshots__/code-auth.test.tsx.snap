@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders code auth page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+  <div
+    class="flex justify-center"
+    style="color: rgb(24, 26, 32);"
+  >
+    <div
+      class="flex w-full justify-center h-screen items-center"
+      style="background-color: rgb(255, 255, 255); color: rgb(24, 26, 32);"
+    >
+      <div
+        class="flex w-full justify-center items-center max-w-7xl flex-grow overflow-visible"
+        style="background-color: rgb(255, 255, 255); color: rgb(24, 26, 32);"
+      >
+        <div
+          class="w-full md:w-1/2 my-16 relative"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="flex justify-center items-center mb-12"
+          >
+            <svg
+              class="block w-12 mr-2"
+            />
+            <svg
+              class="h-6 w-24"
+            />
+          </div>
+          <div
+            class="text-white text-center text-2xl pl-3 md:pl-0"
+            style="color: rgb(24, 26, 32);"
+          >
+            Enter authorisation code!
+          </div>
+          <div
+            class="mt-8 mb-4 text-center text-sm"
+            style="color: rgb(24, 26, 32);"
+          >
+            <span>
+              We
+              '
+              ve just sent a message to your email inbox with your recovery code. Kindly check your email, find the code, and enter it below to proceed with getting back into your account.
+            </span>
+          </div>
+          <form
+            class=""
+          >
+            <label
+              class="flex flex-col my-4 "
+            >
+              <span
+                class="absolute text-sm mb-2 ml-2 z-10 pl-2 transition-all  !backdrop-blur-md"
+                style="transform: translateY(-50%);"
+              >
+                <div
+                  class="flex flex-col"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <span
+                    class="z-10  after:content-['*'] after:mx-2 after:text-red-500"
+                  >
+                    Code
+                  </span>
+                </div>
+              </span>
+              <input
+                autocomplete="Code"
+                class="rounded-2xl transition-all bg-transparent border  rounded px-4 py-4 text-sm outline-none placeholder-gray-500"
+                id="Code"
+                placeholder="Authorisation code"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+            <button
+              class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center transition-all w-full my-8 "
+              style="background-color: rgb(55, 99, 233);"
+              type="submit"
+            >
+              <span
+                class="relative z-10"
+                style="color: white;"
+              >
+                Reset Password
+              </span>
+            </button>
+          </form>
+          <div
+            class="text-sm flex space-x-2 justify-center mb-2 mt-2"
+            style="color: rgb(24, 26, 32);"
+          >
+            <span
+              class=""
+            >
+              Don't have an Account?
+            </span>
+            <a
+              class="text-link hover:underline"
+              href="/create-account"
+            >
+              Sign up
+            </a>
+          </div>
+          <div
+            class="text-sm flex space-x-2 justify-center"
+            style="color: rgb(24, 26, 32);"
+          >
+            <span
+              class=""
+            >
+              Already registered?
+            </span>
+            <a
+              class="text-link hover:underline"
+              href="/login"
+            >
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

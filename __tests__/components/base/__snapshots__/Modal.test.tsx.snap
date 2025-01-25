@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders modal unchanged (with close button) 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+</div>
+`;
+
+exports[`renders modal unchanged (with close button) 2`] = `
+<div>
+  <div
+    id="modal-root"
+  >
+    <div
+      class="fixed w-full h-full top-0 left-0 bg-black z-40 flex items-center justify-center"
+      id="modal"
+      style="z-index: 99; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        class="relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] border border-forumm-menu-border overflow-y-auto "
+        style="background: rgb(255, 255, 255); opacity: 0; transform: scale(0) translateZ(0);"
+      >
+        <div
+          class="sticky top-0 flex w-full items-center py-3 box-border min-h-16"
+          style="background-color: rgb(255, 255, 255); z-index: 1000;"
+        >
+          <div
+            class="text-center text-lg flex-1 font-semibold"
+          />
+          <button
+            class="absolute right-0"
+          >
+            <svg
+              class="w-8 h-8"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full"
+        >
+          Lorem Ipsum...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal unchanged (with title) 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+</div>
+`;
+
+exports[`renders modal unchanged (with title) 2`] = `
+<div>
+  <div
+    id="modal-root"
+  >
+    <div
+      class="fixed w-full h-full top-0 left-0 bg-black z-40 flex items-center justify-center"
+      id="modal"
+      style="z-index: 99; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        class="relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] border border-forumm-menu-border overflow-y-auto "
+        style="background: rgb(255, 255, 255); opacity: 0; transform: scale(0) translateZ(0);"
+      >
+        <div
+          class="sticky top-0 flex w-full items-center py-3 box-border min-h-16"
+          style="background-color: rgb(255, 255, 255); z-index: 1000;"
+        >
+          <div
+            class="text-center text-lg flex-1 font-semibold"
+          >
+            Modal Title
+          </div>
+          <button
+            class="absolute right-0"
+          >
+            <svg
+              class="w-8 h-8"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full"
+        >
+          Lorem Ipsum...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders modal unchanged (without close button) 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+</div>
+`;
+
+exports[`renders modal unchanged (without close button) 2`] = `
+<div>
+  <div
+    id="modal-root"
+  >
+    <div
+      class="fixed w-full h-full top-0 left-0 bg-black z-40 flex items-center justify-center"
+      id="modal"
+      style="z-index: 99; background-color: rgba(0, 0, 0, 0);"
+    >
+      <div
+        class="relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] border border-forumm-menu-border overflow-y-auto "
+        style="background: rgb(255, 255, 255); opacity: 0; transform: scale(0) translateZ(0);"
+      >
+        <div
+          class="sticky top-0 flex w-full items-center py-3 box-border min-h-16"
+          style="background-color: rgb(255, 255, 255); z-index: 1000;"
+        >
+          <div
+            class="text-center text-lg flex-1 font-semibold"
+          />
+        </div>
+        <div
+          class="w-full"
+        >
+          Lorem Ipsum...
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

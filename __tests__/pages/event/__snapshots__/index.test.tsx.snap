@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders event index page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+  <div
+    class="overflow-hidden min-h-screen flex flex-col "
+    style="color: rgb(24, 26, 32);"
+  >
+    <header>
+      <div
+        class="sticky top-0 left-0 w-full z-[1000] flex px-4 md:px-20 lg:px-[156px] justify-between border-b border-forumm-menu-border  items-center h-[65px] sm:h-[75px]"
+        style="color: rgb(24, 26, 32); background: rgba(255, 255, 255, 0.6);"
+      >
+        <div
+          class="flex items-center"
+          style="color: rgb(24, 26, 32);"
+        >
+          <button>
+            <div
+              class="flex items-center hover:animate-heartbeat"
+              style="color: rgb(24, 26, 32);"
+            >
+              <img
+                alt="Logo"
+                class="hidden md:flex h-14 w-14 rounded-md object-cover mr-2"
+                data-nimg="1"
+                decoding="async"
+                height="100"
+                loading="lazy"
+                src="/images/ForummLogo.svg"
+                srcset="/images/ForummLogo.svg 1x, /images/ForummLogo.svg 2x"
+                style="color: transparent;"
+                width="100"
+              />
+              <div
+                class="flex flex-col"
+                style="color: rgb(24, 26, 32);"
+              >
+                <svg
+                  class="w-20 h-8 -ml-1"
+                />
+                <span
+                  class="text-xs text-left min-h-[20px]"
+                >
+                  448 Studio
+                </span>
+              </div>
+            </div>
+          </button>
+          <div
+            class="hidden md:block ml-6 font-medium text-xl"
+            style="color: rgb(24, 26, 32);"
+          />
+        </div>
+        <div
+          class="flex space-x-4 items-center cursor-pointer"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="flex items-center space-x-2 md:space-x-6 mr-3 md:mr-6"
+          >
+            <span
+              class="border-l-2 border-textColour h-8"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class=" w-64 absolute px-6 right-0 mr-7 flex flex-col space-y-2 text-lg transition-all h-0 overflow-hidden -mt-[1px] rounded-xl border-t-0 rounded-tl-none rounded-tr-none shadow-md"
+        style="z-index: 999999; background-color: rgb(251, 252, 254); border: 0px solid #e5e7eb;"
+      >
+        <div
+          class="cursor-pointer flex items-center textColour text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 496 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 96c48.6 0 88 39.4 88 88s-39.4 88-88 88-88-39.4-88-88 39.4-88 88-88zm0 344c-58.7 0-111.3-26.6-146.5-68.2 18.8-35.4 55.6-59.8 98.5-59.8 2.4 0 4.8.4 7.1 1.1 13 4.2 26.6 6.9 40.9 6.9 14.3 0 28-2.7 40.9-6.9 2.3-.7 4.7-1.1 7.1-1.1 42.9 0 79.7 24.4 98.5 59.8C359.3 421.4 306.7 448 248 448z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            User Profile
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour text-base pt-1 leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2 text-181A20"
+          />
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Support
+          </div>
+        </div>
+        <div
+          class="cursor-pointer flex items-center textColour pt-1 text-base leading-none"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="inline w-5 h-5 mr-2"
+            fill="#181A20"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+            />
+            <path
+              d="M17 8l-1.41 1.41L17.17 11H9v2h8.17l-1.58 1.58L17 16l4-4-4-4zM5 5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h7v-2H5V5z"
+            />
+          </svg>
+          <div
+            style="color: rgb(24, 26, 32);"
+          >
+            Logout
+          </div>
+        </div>
+      </div>
+    </header>
+    <div
+      class="flex-1 transition-all"
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="w-full py-64 flex justify-center"
+        style="color: rgb(24, 26, 32);"
+      >
+        <div
+          class="w-32 h-32 "
+          data-testid="loading"
+          style="color: rgb(24, 26, 32);"
+        >
+          <svg
+            class="w-32 h-32 "
+          />
+          <svg
+            class="w-32 h-32  !h-12"
+          />
+        </div>
+        <div
+          style="position: fixed; z-index: 9999; top: 16px; left: 16px; right: 16px; bottom: 16px; pointer-events: none;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

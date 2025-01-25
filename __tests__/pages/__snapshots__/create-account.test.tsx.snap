@@ -1,0 +1,230 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders create account page unchanged 1`] = `
+<div>
+  <div
+    id="modal-root"
+  />
+  <div
+    class="flex justify-center h-screen items-center"
+    style="background-image: url(/img.jpg); background-size: 100% 100%; background-repeat: no-repeat; background-position: center; background-color: rgb(255, 255, 255);"
+  >
+    <div
+      class="flex justify-center items-center max-w-7xl flex-grow overflow-visible"
+      style="color: rgb(24, 26, 32);"
+    >
+      <div
+        class="w-4/5 sm:w-1/2 mt-2 md:mt-20"
+        style="color: rgb(24, 26, 32);"
+      >
+        <div
+          class="flex flex-col items-center space-y-2"
+          style="color: rgb(24, 26, 32);"
+        >
+          <div
+            class="text-center text-2xl cursor-pointer"
+            style="color: rgb(24, 26, 32);"
+          >
+            <div
+              class="flex justify-center items-center mb-12"
+            >
+              <svg
+                class="block w-12 mr-2"
+              />
+              <svg
+                class="h-6 w-24"
+              />
+            </div>
+            <p>
+              Sign up to get started
+            </p>
+          </div>
+        </div>
+        <div
+          style="color: rgb(24, 26, 32);"
+        >
+          <form
+            class=""
+          >
+            <label
+              class="flex flex-col my-4 "
+            >
+              <span
+                class="absolute text-sm mb-2 ml-2 z-10 pl-2 transition-all  !backdrop-blur-md"
+                style="transform: translateY(-50%);"
+              >
+                <div
+                  class="flex flex-col"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <span
+                    class="z-10  after:content-['*'] after:mx-2 after:text-red-500"
+                  >
+                    Name
+                  </span>
+                </div>
+              </span>
+              <input
+                autocomplete="Name"
+                class="rounded-2xl transition-all bg-transparent border  rounded px-4 py-4 text-sm outline-none placeholder-gray-500"
+                id="Name"
+                placeholder="John Doe"
+                required=""
+                type="text"
+                value=""
+              />
+            </label>
+            <label
+              class="flex flex-col my-4 "
+            >
+              <span
+                class="absolute text-sm mb-2 ml-2 z-10 pl-2 transition-all  !backdrop-blur-md"
+                style="transform: translateY(-50%);"
+              >
+                <div
+                  class="flex flex-col"
+                  style="color: rgb(24, 26, 32);"
+                >
+                  <span
+                    class="z-10  after:content-['*'] after:mx-2 after:text-red-500"
+                  >
+                    Email
+                  </span>
+                </div>
+              </span>
+              <input
+                autocomplete="Email"
+                class="rounded-2xl transition-all bg-transparent border  rounded px-4 py-4 text-sm outline-none placeholder-gray-500"
+                id="Email"
+                placeholder="your@email.com"
+                required=""
+                type="email"
+                value=""
+              />
+            </label>
+            <label
+              class="flex flex-col my-4 mt-6"
+            >
+              <span
+                class="absolute text-sm mb-2 ml-2 z-10 #FFFFFF pl-2 transition-all "
+                style="background: rgb(255, 255, 255); transform: translateY(-50%);"
+              >
+                <span
+                  class="z-10 after:content-['*'] after:mx-2 after:text-red-500"
+                  style="background-color: rgb(255, 255, 255);"
+                >
+                  University or School
+                </span>
+              </span>
+              <div
+                class="amplify-autocomplete border border-light"
+                id="amplify-id-:r0:"
+              >
+                <div
+                  class="amplify-flex amplify-field amplify-textfield amplify-searchfield"
+                >
+                  <label
+                    class="amplify-label amplify-visually-hidden"
+                    for="amplify-id-:r4:"
+                  >
+                    University or School
+                  </label>
+                  <div
+                    class="amplify-flex amplify-field-group amplify-field-group--has-inner-end amplify-field-group--horizontal"
+                    data-orientation="horizontal"
+                  >
+                    <div
+                      class="amplify-field-group__field-wrapper amplify-field-group__field-wrapper--horizontal"
+                      data-orientation="horizontal"
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-invalid="false"
+                        autocomplete="off"
+                        class="amplify-input amplify-field-group__control"
+                        id="amplify-id-:r4:"
+                        name="q"
+                        placeholder="Find your university or school"
+                        required=""
+                        role="combobox"
+                        style="padding: 15.5px 16px; font-size: 14px; color: rgb(24, 26, 32); border-radius: 1rem;"
+                        type="text"
+                        value=""
+                      />
+                      <div
+                        class="amplify-field-group__inner-end"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="transition-all opacity-0 text-red-500 text-sm font-bold"
+              />
+            </label>
+            <div
+              class="text-xs mb-6 mt-1 flex"
+            >
+              <svg
+                class="mr-1 text-xl"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M11 7h2v2h-2V7zm0 4h2v6h-2v-6zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                />
+              </svg>
+              <div
+                class="mt-[2px]"
+                style="color: rgb(24, 26, 32);"
+              >
+                Can't find your university or school? Please proceed with the sign-up process, and we'll handle it from here.
+              </div>
+            </div>
+            <button
+              class="
+      bg-forumm-blue-2 text-white relative rounded-full  px-6 py-4 text-base h-8 flex items-center hover:animate-heartbeat justify-center my-8 w-full"
+              style="background-color: rgb(55, 99, 233);"
+              type="submit"
+            >
+              <span
+                class="relative z-10"
+                style="color: white;"
+              >
+                Sign up
+              </span>
+            </button>
+          </form>
+        </div>
+        <div
+          class="text-sm flex space-x-2 justify-center mb-8 mt-4"
+          style="color: rgb(24, 26, 32);"
+        >
+          <span
+            class=""
+          >
+            Already registered?
+          </span>
+          <a
+            class="text-link hover:underline"
+            href="/login"
+          >
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
