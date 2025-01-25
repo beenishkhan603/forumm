@@ -55,8 +55,8 @@ const FloatingMenu: React.FC = () => {
   )
     ? StaticColours.forumm_light_blue
     : isReadable(StaticColours.forumm_blue, theme.backgroundColour!)
-      ? StaticColours.forumm_blue
-      : darken(StaticColours.forumm_blue, 25)
+    ? StaticColours.forumm_blue
+    : darken(StaticColours.forumm_blue, 25)
 
   const organiserOptions: MenuItemOptions<any>[] = [
     {
@@ -68,8 +68,8 @@ const FloatingMenu: React.FC = () => {
             color: !isAdmin
               ? '#cccccc'
               : isLinkActive('/create-event')
-                ? contrastColor
-                : '',
+              ? contrastColor
+              : '',
           }}
         />
       ),
@@ -87,18 +87,18 @@ const FloatingMenu: React.FC = () => {
       ),
       label: 'Metrics',
     },
-    {
-      path: '/organisation-settings',
-      icon: (
-        <MdOutlineSettings
-          className="w-6 h-6"
-          style={{
-            color: isLinkActive('/organisation-settings') ? contrastColor : '',
-          }}
-        />
-      ),
-      label: 'Organisation Settings',
-    },
+    // {
+    //   path: '/organisation-settings',
+    //   icon: (
+    //     <MdOutlineSettings
+    //       className="w-6 h-6"
+    //       style={{
+    //         color: isLinkActive('/organisation-settings') ? contrastColor : '',
+    //       }}
+    //     />
+    //   ),
+    //   label: 'Organisation Settings',
+    // },
   ]
 
   const eventOptions: MenuItemOptions<Partial<Event>>[] = [
@@ -175,18 +175,18 @@ const FloatingMenu: React.FC = () => {
   ]
 
   const settingOptions: MenuItemOptions<any>[] = [
-    {
-      path: '/settings',
-      icon: (
-        <FaUserCircle
-          className="w-6 h-6"
-          style={{
-            color: isLinkActive('/settings') ? contrastColor : '',
-          }}
-        />
-      ),
-      label: 'User Settings',
-    },
+    // {
+    //   path: '/settings',
+    //   icon: (
+    //     <FaUserCircle
+    //       className="w-6 h-6"
+    //       style={{
+    //         color: isLinkActive('/settings') ? contrastColor : '',
+    //       }}
+    //     />
+    //   ),
+    //   label: 'User Settings',
+    // },
     {
       path: '#',
       icon: (
@@ -298,9 +298,7 @@ const FloatingMenu: React.FC = () => {
       <Box className="flex items-center w-full mt-4 relative border-forumm-menu-border">
         {/* eslint-disable-next-line */}
         <Box
-          className={`hover:animate-jello-vertical flex items-center justify-center mt-4 mb-3 duration-300 ${
-            isOpen ? 'ml-[85px]' : 'ml-[2px]'
-          }`}
+          className={`hover:animate-jello-vertical flex items-center justify-center mt-4 mb-3 duration-300 w-full`}
           onClick={() => router.push('/dashboard')}
         >
           {/* {!profile || !profile.profileImageUrl ? (
@@ -347,10 +345,10 @@ const FloatingMenu: React.FC = () => {
               !event
                 ? [...acc, val]
                 : val.show === undefined
-                  ? [...acc, val]
-                  : val.show(event)
-                    ? [...acc, val]
-                    : acc,
+                ? [...acc, val]
+                : val.show(event)
+                ? [...acc, val]
+                : acc,
             []
           )
           .map((option) =>
@@ -372,10 +370,10 @@ const FloatingMenu: React.FC = () => {
               !event
                 ? [...acc, val]
                 : val.show === undefined
-                  ? [...acc, val]
-                  : val.show(event)
-                    ? [...acc, val]
-                    : acc,
+                ? [...acc, val]
+                : val.show(event)
+                ? [...acc, val]
+                : acc,
             []
           )
           .map((option) =>

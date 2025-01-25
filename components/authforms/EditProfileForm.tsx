@@ -24,10 +24,9 @@ const EditProfileForm = ({
   const router = useRouter()
   const uploadFile = useFileUploader()
 
-
   return (
     <Modal show={modal} setShow={setModal}>
-      <Box className="w-full relative">
+      <Box className="w-sm relative">
         <Box
           className={`absolute transition-all text-white p-8 top-0 bottom-0 left-0 right-0 flex items-center justify-center h-24 mt-auto bg-green-500 pointer-events-none ${
             done ? '' : 'opacity-0'

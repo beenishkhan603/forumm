@@ -137,7 +137,7 @@ const Modal = ({
                 scale: 0,
                 opacity: 0,
               }}
-              className={`relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[1280px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] ${
+              className={`relative flex items-center flex-col top-0 w-full mx-2 xs:mt-[155px] md:mt-2 sm:mx-0 !sm:w-5/6 md:min-w-[90%] lg:min-w-[1000px] xl:min-w-[850px] rounded-2xl p-3 !pt-0 sm:p-6 max-w-xl z-50 !max-h-[calc(100vh-155px)] ${
                 !isLight
                   ? 'border border-panel-gray'
                   : 'border border-forumm-menu-border'

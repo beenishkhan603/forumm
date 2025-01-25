@@ -9,7 +9,16 @@ import LoadingBar from '@components/base/LoadingBar'
 import EditProfileForm from '@components/authforms/EditProfileForm'
 import { DropdownInput } from '@components/inputs/DropdownInput'
 import { useTheme } from '@libs/useTheme'
-import { FaUser, FaEnvelope, FaUniversity, FaUserTag, FaEdit, FaLock, FaEyeSlash, FaEye } from "react-icons/fa";
+import {
+  FaUser,
+  FaEnvelope,
+  FaUniversity,
+  FaUserTag,
+  FaEdit,
+  FaLock,
+  FaEyeSlash,
+  FaEye,
+} from 'react-icons/fa'
 
 export default function UserDetailsPage() {
   const [showEditProfileModal, setShowEditProfileModal] =
@@ -46,7 +55,9 @@ export default function UserDetailsPage() {
       <div className="flex items-center justify-center min-h-screen font-sans bg-gray-100">
         {/* Outer Card */}
         <div className="rounded-xl shadow-xl bg-white p-10 w-full max-w-6xl">
-          <div className="grid grid-cols-[1.5fr_2.5fr] gap-8"> {/* Adjusted grid template columns */}
+          <div className="">
+            {' '}
+            {/* Adjusted grid template columns */}
             {/* Left Column */}
             <div className="flex flex-col items-center bg-gray-50 p-8 rounded-lg shadow-sm">
               {/* Profile Picture Box */}
@@ -94,10 +105,10 @@ export default function UserDetailsPage() {
                             ? 'false'
                             : 'true',
                       },
-                    ]);
+                    ])
                     setTimeout(() => {
-                      router.reload();
-                    }, 1000);
+                      router.reload()
+                    }, 1000)
                   }}
                 >
                   {profile?.isAnonymous?.toLowerCase() === 'true' ? (
@@ -105,42 +116,52 @@ export default function UserDetailsPage() {
                   ) : (
                     <FaEye className="mr-2 text-sm" />
                   )}
-                  {`${profile?.isAnonymous?.toLowerCase() === 'true' ? 'Disable' : 'Enable'} Anonymous Mode`}
+                  {`${
+                    profile?.isAnonymous?.toLowerCase() === 'true'
+                      ? 'Disable'
+                      : 'Enable'
+                  } Anonymous Mode`}
                 </button>
               </div>
             </div>
             {/* Right Column */}
-            <div className="flex flex-col justify-center space-y-8 bg-gray-50 p-8 rounded-lg shadow-sm">
-              {/* Name */}
-              <div className="flex items-center rounded-lg p-5 bg-white shadow-sm">
-                <FaUser className="text-blue-500 mr-5 text-xl" />
-                <span className="font-medium text-lg text-gray-800">{profile?.fullName}</span>
+            <div className="grid grid-cols-2 gap-4 p-8 bg-gray-50 ">
+              <div>
+                {' '}
+                <div className="flex items-center rounded-lg p-5 bg-white shadow-sm my-4">
+                  <FaUser className="text-blue-500 mr-5 text-xl" />
+                  <span className="font-medium text-lg text-gray-800">
+                    {profile?.fullName}
+                  </span>
+                </div>
+                {/* Email */}
+                <div className="flex items-center rounded-lg p-5 bg-white shadow-sm my-4">
+                  <FaEnvelope className="text-blue-500 mr-5 text-xl" />
+                  <span className="font-medium text-lg text-gray-800">
+                    {profile?.email}
+                  </span>
+                </div>
               </div>
-              {/* Email */}
-              <div className="flex items-center rounded-lg p-5 bg-white shadow-sm">
-                <FaEnvelope className="text-blue-500 mr-5 text-xl" />
-                <span className="font-medium text-lg text-gray-800">{profile?.email}</span>
-              </div>
-              {/* Account Type */}
-              <div className="flex items-center rounded-lg p-5 bg-white shadow-sm">
-                <FaUserTag className="text-blue-500 mr-5 text-xl" />
-                <span className="font-medium text-lg text-gray-800">
-                  {isOrganizer ? 'Organiser' : 'Member'} Account
-                </span>
-              </div>
-              {/* University */}
-              <div className="flex items-center rounded-lg p-5 bg-white shadow-sm">
-                <FaUniversity className="text-blue-500 mr-5 text-xl" />
-                <span className="font-medium text-lg text-gray-800">
-                  {profile?.company ?? profile?.university}
-                </span>
+              <div>
+                {/* Account Type */}
+                <div className="flex items-center rounded-lg p-5 bg-white shadow-sm my-4">
+                  <FaUserTag className="text-blue-500 mr-5 text-xl" />
+                  <span className="font-medium text-lg text-gray-800">
+                    {isOrganizer ? 'Organiser' : 'Member'} Account
+                  </span>
+                </div>
+                {/* University */}
+                <div className="flex items-center rounded-lg p-5 bg-white shadow-sm my-4">
+                  <FaUniversity className="text-blue-500 mr-5 text-xl" />
+                  <span className="font-medium text-lg text-gray-800">
+                    {profile?.company ?? profile?.university}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
     </>
   )
 }
