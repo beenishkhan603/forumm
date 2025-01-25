@@ -85,7 +85,7 @@ export const TextInput = ({
       placeholder={placeholder}
       autoComplete={label}
       id={label}
-      className={`rounded-2xl transition-all bg-transparent border-none ${
+      className={`pl-10 p-3 w-full bg-[#96B7E8] text-white placeholder-white focus:outline-none focus:ring-0 border-none rounded-3xl ${
         errorMessage ? 'text-red-500 border-red-500' : ''
       } rounded px-4 py-4 text-sm outline-none placeholder-gray-500`}
       style={{ color: 'white', backgroundColor: '#96B7E8' }}
@@ -111,7 +111,7 @@ export const TextInput = ({
       className={['flex flex-col my-4', className].join(' ')}
       style={{ color: 'white' }}
     >
-      {label && (
+      {/* {label && (
         <span
           ref={labelRef}
           className={`absolute text-sm mb-2 ml-2 z-10 ${
@@ -139,7 +139,7 @@ export const TextInput = ({
             </span>
           </Tooltip>
         </span>
-      )}
+      )} */}
       {input}
       {errorMessage && (
         <Box

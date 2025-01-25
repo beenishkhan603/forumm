@@ -245,10 +245,12 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
     ]
 
     if (blackbaudEvent) {
-      const startDateTime = `${blackbaudEvent?.start_date ?? ''} ${blackbaudEvent?.start_time ?? ''
-        }`
-      const endDateTime = `${blackbaudEvent?.end_date ?? ''} ${blackbaudEvent?.end_time ?? ''
-        }`
+      const startDateTime = `${blackbaudEvent?.start_date ?? ''} ${
+        blackbaudEvent?.start_time ?? ''
+      }`
+      const endDateTime = `${blackbaudEvent?.end_date ?? ''} ${
+        blackbaudEvent?.end_time ?? ''
+      }`
 
       blackbaudData = [
         { label: 'Title', content: blackbaudEvent?.name ?? '' },
@@ -331,8 +333,8 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
           <Box className="px-4 md:px-20 lg:px-[156px]">
             <Box className="py-6 sm:py-6">
               <Box className="text-2xl">
-                {editMode ? 'Edit' : 'Create'} Event for{' '}
-                {profile?.company ?? profile?.university}
+                {editMode ? 'Edit' : 'Create'} {' Event'}
+                {/* {profile?.company ?? profile?.university} */}
               </Box>
               <MiniNav
                 stage={createEventStage}
@@ -375,11 +377,11 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
                     }}
                     onClick={() => {
                       const eventType: EventType =
-                        formData?.event?.eventType ?? EventType.Online;
+                        formData?.event?.eventType ?? EventType.Online
                       const results = validate(
                         { ...formData },
                         getValidationRules(eventType)
-                      );
+                      )
                       if (!results.error) {
                         updateEvent({
                           variables: {
@@ -388,12 +390,14 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
                               isPublished: true,
                             },
                           },
-                        }).then(() => refetch());
+                        }).then(() => refetch())
                       } else {
-                        setErrors(results.error);
+                        setErrors(results.error)
                       }
                     }}
-                    title={formData?.isPublished ? 'Published' : 'Publish Event'}
+                    title={
+                      formData?.isPublished ? 'Published' : 'Publish Event'
+                    }
                     type="success"
                     size="medium"
                     disabled={formData?.isPublished ?? false}
@@ -413,10 +417,10 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
                             eventId: eventId as string,
                           },
                         },
-                      });
+                      })
                       setTimeout(() => {
-                        push('/dashboard');
-                      }, 500);
+                        push('/dashboard')
+                      }, 500)
                     }}
                     title="Delete Event"
                     type="danger"
@@ -451,7 +455,7 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
                   {blackBaudError && (
                     <Button
                       onClick={() => {
-                        push('/organisation-settings');
+                        push('/organisation-settings')
                       }}
                       title="Session expired, Please Reconnect"
                       type="link"
@@ -464,7 +468,6 @@ const CreateEventLayout = ({ children }: { children: React.ReactNode }) => {
             )}
             <Box></Box>
           </Box>
-
         </CreateEventContext.Provider>
         <FooterUnauthenticated transparent={false} />
       </Box>

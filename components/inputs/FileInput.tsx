@@ -173,36 +173,38 @@ export const FileInput = ({
           </span>
         )}
       {!minified && (
-        <Box
-          className={`flex ${
-            hintPosition === 'bottom' ? 'flex-col' : ''
-          } items-center space-x-4 mr-12 `}
-        >
-          {loading ? (
-            <LoadingSpinner className="w-20 ml-4" />
-          ) : hasUploadedImage() ? (
-            getMediaElement()
-          ) : (
-            <AddImage
-              className={`w-20 h-20 rounded object-contain top-0 ml-4 ${
-                hintPosition === 'top'
-                  ? ''
-                  : 'cursor-pointer hover:animate-heartbeat'
-              }`}
-              onClick={hintPosition === 'bottom' ? openUploadFile : undefined}
-            />
-          )}
+        <>
+          <Box
+            className={`flex ${
+              hintPosition === 'bottom' ? 'flex-col' : ''
+            } items-center space-x-4 mr-12 `}
+          >
+            {loading ? (
+              <LoadingSpinner className="w-20 ml-4" />
+            ) : hasUploadedImage() ? (
+              getMediaElement()
+            ) : (
+              <AddImage
+                className={`w-20 h-20 rounded object-contain top-0 ml-4 ${
+                  hintPosition === 'top'
+                    ? ''
+                    : 'cursor-pointer hover:animate-heartbeat'
+                }`}
+                onClick={hintPosition === 'bottom' ? openUploadFile : undefined}
+              />
+            )}
 
-          {(label || errorMessage || hint) && hintPosition === 'bottom' && (
-            <span
-              className={`flex flex-col items-center transition-all text-sm ${
-                errorMessage ? 'text-red-500' : ''
-              }`}
-            >
-              {errorMessage}
-              {hint && <span className="ml-2 text-xs">{hint}</span>}
-            </span>
-          )}
+            {(label || errorMessage || hint) && hintPosition === 'bottom' && (
+              <span
+                className={`flex flex-col items-center transition-all text-sm ${
+                  errorMessage ? 'text-red-500' : ''
+                }`}
+              >
+                {errorMessage}
+                {hint && <span className="ml-2 text-xs">{hint}</span>}
+              </span>
+            )}
+          </Box>
           <Button
             // show={hintPosition === 'top'}
             onClick={openUploadFile}
@@ -213,7 +215,7 @@ export const FileInput = ({
           {uploadStatus !== '' && (
             <Box className={'mx-auto mb-2'}>{uploadStatus}</Box>
           )}
-        </Box>
+        </>
       )}
       {minified && (
         <Box

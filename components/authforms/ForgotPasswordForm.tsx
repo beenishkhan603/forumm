@@ -32,10 +32,10 @@ const ForgotPasswordForm = () => {
   return (
     <Box className="flex w-full justify-center h-screen items-center">
       <Box className="flex w-full justify-center items-center max-w-7xl flex-grow overflow-visible">
-        <Box className="w-4/5 sm:w-1/2 my-16 relative">
+        <Box className="w-10/12 sm:w-1/3 my-12 p-6 relative">
           <Box className="flex flex-col items-center space-y-2">
             <Box
-              onClick={() => window.location.href = 'https://www.forumm.to'}
+              onClick={() => (window.location.href = 'https://www.forumm.to')}
               className="text-center text-2xl cursor-pointer"
             >
               <div className="flex flex-col justify-center items-center mb-12">

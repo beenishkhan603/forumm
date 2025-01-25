@@ -70,7 +70,7 @@ export const SearchInput = ({
       hasSearchIcon={false}
       className="border border-none"
       inputStyles={{
-        padding: '15.5px 16px',
+        // padding: '15.5px 16px',
         fontSize: '14px',
         color: 'white',
         borderRadius: '1rem',
@@ -86,7 +86,7 @@ export const SearchInput = ({
 
   return (
     <label
-      className={['flex flex-col my-4', className].join(' ')}
+      className={['flex flex-col', className].join(' ')}
       style={{ color: textColour }}
     >
       {label && (
