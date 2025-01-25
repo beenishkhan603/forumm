@@ -607,7 +607,7 @@ export default function EventPage() {
                         {/* </Tooltip> */}
                       </Box>
                     </Box>
-                    <Box className="text-[36px] w-full font-bold">
+                    <Box className="text-[20px] w-full font-bold overflow-hidden text-ellipsis whitespace-pre-wrap  ">
                       {event?.event?.title}
                     </Box>
                     <Box className="mb-6" style={{ whiteSpace: 'pre-wrap' }}>
